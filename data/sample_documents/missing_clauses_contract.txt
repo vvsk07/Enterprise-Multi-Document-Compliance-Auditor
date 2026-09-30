@@ -1,0 +1,14 @@
+VENDOR CONSULTING AGREEMENT
+
+This Consulting Agreement is dated February 1, 2026, between Horizon Logistics Corp ("Client") and Apex Advisory Group ("Consultant").
+
+Scope of Services:
+Consultant agrees to provide supply chain optimization advice and technical reporting as requested by Client. Client shall pay Consultant a hourly rate of $250.00 USD for services rendered.
+
+Payment Terms:
+Invoices shall be submitted monthly and paid within thirty (30) days of receipt.
+
+Notice:
+All notices shall be sent in writing to the corporate addresses of the parties.
+
+[Note: This document deliberately omits Confidentiality, Termination, Data Protection, and Governing Law clauses for testing compliance audit rules.]

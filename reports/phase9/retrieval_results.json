@@ -1,0 +1,62 @@
+[
+  {
+    "system": "FAISS Only",
+    "recall_1": 13.0,
+    "recall_3": 16.8,
+    "recall_5": 19.6,
+    "recall_10": 25.0,
+    "mrr": 0.168,
+    "ndcg_5": 0.245,
+    "precision_5": 0.074,
+    "avg_ms": 10.9,
+    "p50_ms": 10.5,
+    "p90_ms": 13.0,
+    "p95_ms": 13.9,
+    "p99_ms": 16.1
+  },
+  {
+    "system": "BM25 Only",
+    "recall_1": 7.6,
+    "recall_3": 14.1,
+    "recall_5": 15.8,
+    "recall_10": 21.7,
+    "mrr": 0.118,
+    "ndcg_5": 0.183,
+    "precision_5": 0.061,
+    "avg_ms": 0.2,
+    "p50_ms": 0.2,
+    "p90_ms": 0.3,
+    "p95_ms": 0.4,
+    "p99_ms": 0.4
+  },
+  {
+    "system": "Hybrid",
+    "recall_1": 10.9,
+    "recall_3": 14.7,
+    "recall_5": 17.9,
+    "recall_10": 22.8,
+    "mrr": 0.148,
+    "ndcg_5": 0.222,
+    "precision_5": 0.07,
+    "avg_ms": 11.0,
+    "p50_ms": 10.5,
+    "p90_ms": 13.1,
+    "p95_ms": 14.0,
+    "p99_ms": 15.2
+  },
+  {
+    "system": "Hybrid + Reranker",
+    "recall_1": 8.2,
+    "recall_3": 19.0,
+    "recall_5": 20.1,
+    "recall_10": 22.8,
+    "mrr": 0.144,
+    "ndcg_5": 0.231,
+    "precision_5": 0.078,
+    "avg_ms": 425.9,
+    "p50_ms": 364.8,
+    "p90_ms": 426.0,
+    "p95_ms": 445.9,
+    "p99_ms": 622.7
+  }
+]

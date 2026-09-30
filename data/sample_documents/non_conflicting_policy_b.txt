@@ -1,0 +1,7 @@
+STANDARD OPERATING PROCEDURE - POLICY B
+
+Document ID: SOP-2026-B
+Organization: Acme Global Enterprise Inc.
+
+Section 1. Security Compliance
+All employees must complete annual cybersecurity awareness training by December 31, 2026.

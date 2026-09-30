@@ -1,0 +1,26 @@
+[
+  {
+    "synthetic_chunks": 100,
+    "bm25_build_time_ms": 7.3,
+    "search_latency_ms": 0.35,
+    "index_memory_estimate_kb": 45.0
+  },
+  {
+    "synthetic_chunks": 500,
+    "bm25_build_time_ms": 20.7,
+    "search_latency_ms": 1.38,
+    "index_memory_estimate_kb": 225.0
+  },
+  {
+    "synthetic_chunks": 1000,
+    "bm25_build_time_ms": 41.9,
+    "search_latency_ms": 1.58,
+    "index_memory_estimate_kb": 450.0
+  },
+  {
+    "synthetic_chunks": 5000,
+    "bm25_build_time_ms": 312.1,
+    "search_latency_ms": 3.6,
+    "index_memory_estimate_kb": 2250.0
+  }
+]

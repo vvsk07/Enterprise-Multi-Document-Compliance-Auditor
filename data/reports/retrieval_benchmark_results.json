@@ -1,0 +1,46 @@
+{
+  "FAISS Only": {
+    "recall_at_1": 20.0,
+    "recall_at_3": 30.0,
+    "recall_at_5": 50.0,
+    "mrr": 0.284,
+    "ndcg_at_5": 0.332,
+    "precision_at_5": 0.16,
+    "avg_latency_ms": 9.7,
+    "p50_latency_ms": 9.0,
+    "p95_latency_ms": 13.0
+  },
+  "BM25 Only": {
+    "recall_at_1": 40.0,
+    "recall_at_3": 55.0,
+    "recall_at_5": 60.0,
+    "mrr": 0.477,
+    "ndcg_at_5": 0.512,
+    "precision_at_5": 0.23,
+    "avg_latency_ms": 0.2,
+    "p50_latency_ms": 0.2,
+    "p95_latency_ms": 0.3
+  },
+  "Hybrid": {
+    "recall_at_1": 35.0,
+    "recall_at_3": 50.0,
+    "recall_at_5": 55.0,
+    "mrr": 0.435,
+    "ndcg_at_5": 0.466,
+    "precision_at_5": 0.2,
+    "avg_latency_ms": 9.0,
+    "p50_latency_ms": 9.2,
+    "p95_latency_ms": 12.2
+  },
+  "Hybrid + Reranker": {
+    "recall_at_1": 25.0,
+    "recall_at_3": 50.0,
+    "recall_at_5": 65.0,
+    "mrr": 0.405,
+    "ndcg_at_5": 0.471,
+    "precision_at_5": 0.21,
+    "avg_latency_ms": 866.3,
+    "p50_latency_ms": 471.6,
+    "p95_latency_ms": 958.5
+  }
+}

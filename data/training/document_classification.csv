@@ -1,0 +1,46 @@
+text,label
+"This Master Services Agreement ('Agreement') is entered into as of January 15, 2026, by and between Client and Provider. Scope of work and deliverables shall be governed by attached statements of work.",Contract
+"Consulting Services Agreement. The Client hereby retains Consultant to perform professional IT advisory services. Total consideration shall be paid according to milestone schedules.",Contract
+"Vendor Supply Agreement. Vendor agrees to supply manufactured component parts under specified purchase order quantities and warranty conditions.",Contract
+"Software License Agreement. Licensor grants Licensee a non-exclusive, non-transferable enterprise license to install and run the licensed software.",Contract
+"Service Level Agreement (SLA). Provider guarantees 99.9% uptime for cloud hosting services with specified credit remedies for unexpected outages.",Contract
+"Commercial Lease Agreement. Landlord leases commercial office premises to Tenant for a fixed term of 5 years at monthly rental rate of $15,000.",Contract
+"Mutual Non-Disclosure Agreement. Each party agrees to hold all proprietary technical, financial, and customer trade secrets in strict confidence for a period of 5 years.",NDA
+"Confidentiality and Nondisclosure Agreement. Disclosing party shall share proprietary software source code with Receiving Party solely for evaluation purposes.",NDA
+"Unilateral Non-Disclosure Agreement. Recipient shall protect confidential business plans and shall not disclose proprietary information without written authorization.",NDA
+"Proprietary Information and Inventions Agreement. Employee agrees not to disclose trade secrets or proprietary algorithms developed during the course of employment.",NDA
+"Standard NDA. The parties intend to engage in business discussions and wish to protect non-public financial records.",NDA
+"Employment Agreement. Company hires Employee as Senior Software Engineer at an annual base salary of $150,000 USD with standard health benefits and PTO.",Employment Agreement
+"Executive Employment Contract. Executive shall serve as Vice President of Operations reporting directly to the Board of Directors.",Employment Agreement
+"Offer Letter and Employment Agreement. Congratulations on your offer for Full Stack Developer at Acme Systems. Employment is at-will.",Employment Agreement
+"Independent Contractor Agreement. Contractor agrees to perform specialized UX design services on a freelance project basis.",Employment Agreement
+"Employee Hand Book and Workplace Policy. Company employees must adhere to remote work guidelines, attendance rules, and anti-harassment standards.",Company Policy
+"Corporate Information Security Policy. All laptop storage drives must be encrypted using AES-256 and passwords must be updated every 90 days.",Company Policy
+"Employee Data Privacy and Protection Policy. Personal data collected from staff members shall be stored securely in accordance with GDPR and CCPA regulations.",Company Policy
+"Acceptable Use Policy for IT Assets. Employees shall not use corporate network infrastructure for unauthorized personal activities or peer-to-peer file sharing.",Company Policy
+"Code of Business Conduct and Ethics Policy. Employees must avoid conflicts of interest and report any policy violations to Compliance Department.",Company Policy
+"Regulatory Compliance Audit Schedule. Mandatory annual compliance review verifying adherence to SOC 2 Type II controls and ISO 27001 certification standards.",Compliance Document
+"Data Retention and Archival Compliance Standard. Business transaction records and customer log files must be retained for at least 7 years under statutory rules.",Compliance Document
+"HIPAA Security Compliance Manual. Covered entity must implement physical and administrative safeguards to protect Electronic Protected Health Information (ePHI).",Compliance Document
+"AML and KYC Regulatory Compliance Guidelines. Financial institutions must verify customer identity documentation and report suspicious transactions to regulatory authorities.",Compliance Document
+"ISO 9001 Quality Management Compliance Manual. Operational procedures must undergo periodic internal audit checks to maintain quality certification.",Compliance Document
+"INVOICE #INV-2026-889. Bill To: Horizon Enterprises. Itemized services: Web Development (40 hrs @ $150/hr). Total Amount Due: $6,000.00. Net 30 Days.",Invoice
+"Tax Invoice #10492. Customer Account: ACME-44. Description: Enterprise Cloud Subscription Q1 2026. Subtotal: $12,500. VAT 10%: $1,250. Balance Due: $13,750.",Invoice
+"Billing Statement & Invoice. Merchant Services Inc. Charges for server maintenance and hardware replacement. Please remit payment via wire transfer.",Invoice
+"Invoice #2026-004. Client: Global Logistics Corp. Professional legal consultation fee: $4,500. Payment due upon receipt.",Invoice
+"Vendor Invoice #99102. Supply chain logistics freight charges. Total Invoice Value: $8,750.00.",Invoice
+"Annual Financial Report & Balance Sheet Q4 2025. Consolidated revenue increased 14% year-over-year to $45.2 Million. Net profit margin reached 18.5%.",Financial Document
+"Quarterly Income Statement & Cash Flow Analysis. Operating expenses totaled $8.4M. EBITDA for the quarter was $3.1M.",Financial Document
+"Audited Financial Statement. Independent Auditor's report on consolidated financial position, assets, liabilities, and retained earnings.",Financial Document
+"Corporate Financial Budget & Expenditure Forecast 2026. Allocation of R&D capital expenditure and operational payroll projections.",Financial Document
+"Investment Portfolio Valuation & Earnings Summary. Summary of equity investments, yield rates, and portfolio diversification metrics.",Financial Document
+"Legal Settlement Agreement & Mutual Release. Party A and Party B agree to settle all pending court litigation claims without admission of liability.",Legal Document
+"Power of Attorney Legal Document. Grantor hereby appoints Attorney-in-Fact to execute binding financial and legal instruments on behalf of Grantor.",Legal Document
+"Affidavit of Fact and Legal Declaration. Sworn statement before Notary Public confirming ownership of real estate property.",Legal Document
+"Court Summons & Legal Notice. Notice of civil proceeding filed in District Court regarding breach of commercial contract.",Legal Document
+"Articles of Incorporation and Bylaws. Certificate of Incorporation filed with Secretary of State establishing corporate governance rules.",Legal Document
+"General Notes and Random Ideas. Meeting transcript discussing product features, marketing brainstorm, and lunch catering options.",Other
+"Technical Specification and User Guide. Documentation for installing Python modules and setting up Docker containers locally.",Other
+"Project Management Weekly Status Update. Sprint review summary detailing completed user stories and open bug tickets.",Other
+"Customer Support Feedback Survey Results. User ratings for mobile application interface and customer service response times.",Other
+"Press Release: Acme Solutions Announces New Product Launch. Media announcement highlighting revolutionary AI features.",Other

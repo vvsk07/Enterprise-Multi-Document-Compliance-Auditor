@@ -1,0 +1,10 @@
+{
+  "overall_risk_score": 29.81,
+  "risk_category": "MEDIUM",
+  "risk_breakdown": {
+    "LOW": 7,
+    "MEDIUM": 3,
+    "HIGH": 4,
+    "CRITICAL": 0
+  }
+}

@@ -1,0 +1,8 @@
+VENDOR MANAGEMENT POLICY - 30 DAYS NOTICE
+
+Document ID: POL-VENDOR-30
+Organization: Acme Global Enterprise Inc.
+Effective Date: January 1, 2026
+
+Section 1. Vendor Termination Notice
+All vendors must provide at least 30 days advance written notice before terminating an active operational contract.

@@ -1,0 +1,749 @@
+[
+  {
+    "query_id": "Q003",
+    "query": "What are the payment terms in the consulting agreement?",
+    "category": "Contractual",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_consulting_agreement,doc_payment_terms",
+    "retrieved_top_5": "missing_clauses_contract.txt,payment_net30.txt,payment_net60.txt,compliant_contract.txt,sample_contract.docx",
+    "error_type": "Suboptimal Rank"
+  },
+  {
+    "query_id": "Q004",
+    "query": "Is confidentiality mandated for vendor employees?",
+    "category": "Policy/compliance",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_nda_agreement",
+    "retrieved_top_5": "missing_clauses_contract.txt,contradictory_policy_b.txt,sample_contract.docx,compliant_contract.txt,policy_vendor_60_days.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q005",
+    "query": "What governing law jurisdiction applies to the vendor contract?",
+    "category": "Contractual",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_msa_agreement",
+    "retrieved_top_5": "missing_clauses_contract.txt,compliant_contract.txt,policy_vendor_30_days.txt,contradictory_policy_b.txt,policy_vendor_60_days.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q006",
+    "query": "How many days notice are required before audit inspection?",
+    "category": "Numerical",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_vendor_policy",
+    "retrieved_top_5": "contradictory_policy_a.txt,contradictory_policy_b.txt,policy_vendor_60_days.txt,policy_vendor_30_days.txt,data_retention_3_years.txt",
+    "error_type": "Suboptimal Rank"
+  },
+  {
+    "query_id": "Q007",
+    "query": "30 days written notice for contract termination",
+    "category": "Exact keyword",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_consulting_agreement",
+    "retrieved_top_5": "policy_vendor_30_days.txt,contradictory_policy_a.txt,sample_contract.docx,contradictory_policy_b.txt,policy_vendor_60_days.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q010",
+    "query": "Are external USB flash drives permitted on corporate laptops?",
+    "category": "Policy/compliance",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "compliant_contract.txt,missing_clauses_contract.txt,contradictory_policy_a.txt,sample_policy.pdf,sample_contract.docx",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q011",
+    "query": "What is the liability cap limitation amount in MSA?",
+    "category": "Contractual",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_msa_agreement",
+    "retrieved_top_5": "compliant_contract.txt,missing_clauses_contract.txt,contradictory_policy_a.txt,contradictory_policy_b.txt,sample_contract.docx",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q012",
+    "query": "Data protection and encryption standard requirements",
+    "category": "Policy/compliance",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "sample_policy.pdf,non_conflicting_policy_a.txt,non_conflicting_policy_b.txt,contradictory_policy_a.txt,compliant_contract.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q013",
+    "query": "Confidential information non-disclosure duration obligations",
+    "category": "Semantic paraphrase",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_nda_agreement",
+    "retrieved_top_5": "compliant_contract.txt,sample_contract.docx,sample_contract.docx,contradictory_policy_a.txt,contradictory_policy_b.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q014",
+    "query": "Indemnification obligations for third-party IP infringement claims",
+    "category": "Contractual",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_msa_agreement",
+    "retrieved_top_5": "compliant_contract.txt,sample_contract.docx,sample_contract.docx,contradictory_policy_b.txt,sample_policy.pdf",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q015",
+    "query": "What is the dispute resolution procedure specified?",
+    "category": "Semantic paraphrase",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_msa_agreement",
+    "retrieved_top_5": "sample_policy.pdf,compliant_contract.txt,sample_contract.docx,non_conflicting_policy_a.txt,non_conflicting_policy_b.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q016",
+    "query": "Discrepancy in termination notice between Policy A and Policy B",
+    "category": "Contradiction",
+    "difficulty": "hard",
+    "relevant_document_ids": "doc_vendor_policy_a,doc_vendor_policy_b",
+    "retrieved_top_5": "contradictory_policy_b.txt,contradictory_policy_a.txt,policy_vendor_30_days.txt,non_conflicting_policy_b.txt,compliant_contract.txt",
+    "error_type": "Suboptimal Rank"
+  },
+  {
+    "query_id": "Q017",
+    "query": "Audit rights and record inspection window clause",
+    "category": "Contractual",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_vendor_policy",
+    "retrieved_top_5": "data_retention_7_years.txt,data_retention_3_years.txt,contradictory_policy_a.txt,contradictory_policy_b.txt,missing_clauses_contract.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q018",
+    "query": "SLA uptime guarantee percentage threshold requirement",
+    "category": "Numerical",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_sla_agreement",
+    "retrieved_top_5": "compliant_contract.txt,contradictory_policy_b.txt,contradictory_policy_a.txt,policy_vendor_60_days.txt,non_conflicting_policy_b.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q019",
+    "query": "Force majeure and natural disaster performance excusal terms",
+    "category": "Semantic paraphrase",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_msa_agreement",
+    "retrieved_top_5": "compliant_contract.txt,missing_clauses_contract.txt,contradictory_policy_b.txt,contradictory_policy_a.txt,payment_net30.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q020",
+    "query": "Subcontractor assignment and transfer restrictions",
+    "category": "Contractual",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_msa_agreement",
+    "retrieved_top_5": "compliant_contract.txt,contradictory_policy_b.txt,contradictory_policy_a.txt,missing_clauses_contract.txt,data_retention_7_years.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q026",
+    "query": "AES 256-bit encryption required at rest and in transit",
+    "category": "Exact keyword",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "compliant_contract.txt,contradictory_policy_a.txt,contradictory_policy_b.txt,missing_clauses_contract.txt,sample_policy.pdf",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q027",
+    "query": "Is multi-factor authentication mandatory for admin accounts?",
+    "category": "Policy/compliance",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "compliant_contract.txt,contradictory_policy_a.txt,contradictory_policy_b.txt,sample_contract.docx,non_conflicting_policy_b.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q028",
+    "query": "MFA enforced for all remote and cloud access",
+    "category": "Exact keyword",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "compliant_contract.txt,contradictory_policy_b.txt,contradictory_policy_a.txt,non_conflicting_policy_b.txt,sample_policy.pdf",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q029",
+    "query": "What is the breach notification period for data incidents?",
+    "category": "Numerical",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "compliant_contract.txt,contradictory_policy_a.txt,data_retention_3_years.txt,data_retention_7_years.txt,contradictory_policy_b.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q030",
+    "query": "Security incidents must be reported within 24 hours",
+    "category": "Exact keyword",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "non_conflicting_policy_b.txt,contradictory_policy_a.txt,non_conflicting_policy_a.txt,compliant_contract.txt,missing_clauses_contract.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q032",
+    "query": "1.5% monthly interest penalty on overdue invoices",
+    "category": "Numerical",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_payment_terms",
+    "retrieved_top_5": "missing_clauses_contract.txt,payment_net60.txt,payment_net30.txt,compliant_contract.txt,contradictory_policy_b.txt",
+    "error_type": "Suboptimal Rank"
+  },
+  {
+    "query_id": "Q035",
+    "query": "Are personal mobile devices permitted on corporate Wi-Fi?",
+    "category": "Policy/compliance",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "sample_policy.pdf,compliant_contract.txt,contradictory_policy_a.txt,missing_clauses_contract.txt,sample_contract.docx",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q036",
+    "query": "BYOD policy requires mobile device management enrollment",
+    "category": "Semantic paraphrase",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "contradictory_policy_a.txt,contradictory_policy_b.txt,policy_vendor_30_days.txt,non_conflicting_policy_a.txt,non_conflicting_policy_b.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q037",
+    "query": "What is the annual SLA maintenance outage allowance?",
+    "category": "Numerical",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_sla_agreement",
+    "retrieved_top_5": "compliant_contract.txt,non_conflicting_policy_b.txt,non_conflicting_policy_a.txt,sample_contract.docx,contradictory_policy_a.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q038",
+    "query": "99.9% uptime target excludes scheduled maintenance",
+    "category": "Exact keyword",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_sla_agreement",
+    "retrieved_top_5": "contradictory_policy_b.txt,policy_vendor_60_days.txt,data_retention_3_years.txt,contradictory_policy_a.txt,missing_clauses_contract.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q039",
+    "query": "Service credit percentage for SLA breach under 99.0%",
+    "category": "Numerical",
+    "difficulty": "hard",
+    "relevant_document_ids": "doc_sla_agreement",
+    "retrieved_top_5": "compliant_contract.txt,sample_contract.docx,missing_clauses_contract.txt,sample_contract.docx,contradictory_policy_b.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q040",
+    "query": "10% monthly service fee credit for SLA failure",
+    "category": "Exact keyword",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_sla_agreement",
+    "retrieved_top_5": "missing_clauses_contract.txt,compliant_contract.txt,contradictory_policy_b.txt,contradictory_policy_a.txt,sample_contract.docx",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q041",
+    "query": "Contradiction in data deletion timeline policy 3 years vs 7 years",
+    "category": "Contradiction",
+    "difficulty": "hard",
+    "relevant_document_ids": "doc_deletion_a,doc_deletion_b",
+    "retrieved_top_5": "data_retention_3_years.txt,data_retention_7_years.txt,compliant_contract.txt,contradictory_policy_a.txt,contradictory_policy_b.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q042",
+    "query": "Is immediate termination allowed for material breach of contract?",
+    "category": "Contractual",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_msa_agreement",
+    "retrieved_top_5": "compliant_contract.txt,contradictory_policy_a.txt,policy_vendor_30_days.txt,policy_vendor_60_days.txt,contradictory_policy_b.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q043",
+    "query": "Material breach permits immediate written termination notice",
+    "category": "Exact keyword",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_msa_agreement",
+    "retrieved_top_5": "compliant_contract.txt,contradictory_policy_a.txt,policy_vendor_60_days.txt,contradictory_policy_b.txt,sample_contract.docx",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q044",
+    "query": "What background check requirements apply to vendor personnel?",
+    "category": "Policy/compliance",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_vendor_policy",
+    "retrieved_top_5": "contradictory_policy_b.txt,contradictory_policy_a.txt,policy_vendor_60_days.txt,policy_vendor_30_days.txt,missing_clauses_contract.txt",
+    "error_type": "Suboptimal Rank"
+  },
+  {
+    "query_id": "Q045",
+    "query": "Criminal background checks required prior to system access",
+    "category": "Exact keyword",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_vendor_policy",
+    "retrieved_top_5": "contradictory_policy_a.txt,contradictory_policy_b.txt,compliant_contract.txt,missing_clauses_contract.txt,sample_contract.docx",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q046",
+    "query": "What effective date applies to the Non-Disclosure Agreement?",
+    "category": "Date-related",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_nda_agreement",
+    "retrieved_top_5": "sample_contract.docx,compliant_contract.txt,contradictory_policy_a.txt,contradictory_policy_b.txt,policy_vendor_60_days.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q047",
+    "query": "Agreement effective date January 15 2024",
+    "category": "Date-related",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_nda_agreement",
+    "retrieved_top_5": "compliant_contract.txt,sample_contract.docx,policy_vendor_30_days.txt,contradictory_policy_a.txt,contradictory_policy_b.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q048",
+    "query": "When does the confidentiality obligation expire?",
+    "category": "Date-related",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_nda_agreement",
+    "retrieved_top_5": "compliant_contract.txt,sample_contract.docx,contradictory_policy_a.txt,contradictory_policy_b.txt,missing_clauses_contract.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q049",
+    "query": "Survives for 5 years following termination of agreement",
+    "category": "Date-related",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_nda_agreement",
+    "retrieved_top_5": "compliant_contract.txt,contradictory_policy_b.txt,contradictory_policy_a.txt,sample_contract.docx,sample_contract.docx",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q050",
+    "query": "Who owns intellectual property created under work for hire?",
+    "category": "Contractual",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_consulting_agreement",
+    "retrieved_top_5": "compliant_contract.txt,contradictory_policy_a.txt,contradictory_policy_b.txt,sample_contract.docx,missing_clauses_contract.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q051",
+    "query": "Company retains exclusive ownership of all deliverables and IP",
+    "category": "Exact keyword",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_consulting_agreement",
+    "retrieved_top_5": "compliant_contract.txt,contradictory_policy_a.txt,sample_policy.pdf,sample_contract.docx,sample_contract.docx",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q052",
+    "query": "What limitation of liability dollar amount is defined?",
+    "category": "Numerical",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_msa_agreement",
+    "retrieved_top_5": "compliant_contract.txt,missing_clauses_contract.txt,sample_contract.docx,contradictory_policy_b.txt,contradictory_policy_a.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q053",
+    "query": "Cap on aggregate liability equal to fees paid in prior 12 months",
+    "category": "Numerical",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_msa_agreement",
+    "retrieved_top_5": "compliant_contract.txt,missing_clauses_contract.txt,payment_net30.txt,contradictory_policy_a.txt,contradictory_policy_b.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q054",
+    "query": "Are punitive damages recoverable under breach of contract?",
+    "category": "Contractual",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_msa_agreement",
+    "retrieved_top_5": "compliant_contract.txt,sample_contract.docx,contradictory_policy_a.txt,sample_policy.pdf,contradictory_policy_b.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q055",
+    "query": "Neither party liable for consequential or punitive damages",
+    "category": "Exact keyword",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_msa_agreement",
+    "retrieved_top_5": "compliant_contract.txt,sample_contract.docx,missing_clauses_contract.txt,sample_contract.docx,contradictory_policy_b.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q056",
+    "query": "What notice period is required for SLA schedule modification?",
+    "category": "Numerical",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_sla_agreement",
+    "retrieved_top_5": "contradictory_policy_b.txt,policy_vendor_60_days.txt,contradictory_policy_a.txt,policy_vendor_30_days.txt,sample_contract.docx",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q057",
+    "query": "60 days prior written notice to alter service commitments",
+    "category": "Numerical",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_sla_agreement",
+    "retrieved_top_5": "contradictory_policy_b.txt,policy_vendor_60_days.txt,contradictory_policy_a.txt,compliant_contract.txt,policy_vendor_30_days.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q058",
+    "query": "What jurisdiction handles arbitration of disputes?",
+    "category": "Entity-specific",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_msa_agreement",
+    "retrieved_top_5": "compliant_contract.txt,sample_policy.pdf,sample_contract.docx,sample_contract.docx,missing_clauses_contract.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q059",
+    "query": "Binding arbitration held in New York State Supreme Court",
+    "category": "Entity-specific",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_msa_agreement",
+    "retrieved_top_5": "compliant_contract.txt,sample_policy.pdf,missing_clauses_contract.txt,contradictory_policy_b.txt,contradictory_policy_a.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q060",
+    "query": "Are annual security audits required for third-party vendors?",
+    "category": "Policy/compliance",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_vendor_policy",
+    "retrieved_top_5": "contradictory_policy_b.txt,contradictory_policy_a.txt,non_conflicting_policy_b.txt,non_conflicting_policy_a.txt,missing_clauses_contract.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q061",
+    "query": "SOC 2 Type II audit report submission required annually",
+    "category": "Entity-specific",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_vendor_policy",
+    "retrieved_top_5": "contradictory_policy_a.txt,contradictory_policy_b.txt,data_retention_7_years.txt,data_retention_3_years.txt,non_conflicting_policy_b.txt",
+    "error_type": "Suboptimal Rank"
+  },
+  {
+    "query_id": "Q062",
+    "query": "Is offshore data processing permitted for EU customer data?",
+    "category": "Policy/compliance",
+    "difficulty": "hard",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "sample_policy.pdf,sample_contract.docx,compliant_contract.txt,data_retention_7_years.txt,data_retention_3_years.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q063",
+    "query": "GDPR compliance requires standard contractual clauses for transfers",
+    "category": "Entity-specific",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "sample_policy.pdf,compliant_contract.txt,contradictory_policy_b.txt,missing_clauses_contract.txt,contradictory_policy_a.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q064",
+    "query": "What is the policy regarding vendor password expiration?",
+    "category": "Numerical",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "contradictory_policy_b.txt,contradictory_policy_a.txt,policy_vendor_30_days.txt,policy_vendor_60_days.txt,data_retention_7_years.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q065",
+    "query": "Passwords must be rotated every 90 days with 14 char min",
+    "category": "Numerical",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "compliant_contract.txt,contradictory_policy_a.txt,contradictory_policy_b.txt,policy_vendor_30_days.txt,policy_vendor_60_days.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q066",
+    "query": "Contradiction in notice window 30 days in NDA vs 60 days in MSA",
+    "category": "Contradiction",
+    "difficulty": "hard",
+    "relevant_document_ids": "doc_nda_agreement,doc_msa_agreement",
+    "retrieved_top_5": "sample_contract.docx,policy_vendor_60_days.txt,compliant_contract.txt,policy_vendor_30_days.txt,contradictory_policy_b.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q067",
+    "query": "What software vulnerability patching window is mandated?",
+    "category": "Numerical",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "non_conflicting_policy_a.txt,non_conflicting_policy_b.txt,contradictory_policy_a.txt,compliant_contract.txt,contradictory_policy_b.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q068",
+    "query": "Critical vulnerabilities patched within 14 days of release",
+    "category": "Numerical",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "compliant_contract.txt,missing_clauses_contract.txt,contradictory_policy_a.txt,contradictory_policy_b.txt,policy_vendor_60_days.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q069",
+    "query": "High severity security bugs remediated within 30 days",
+    "category": "Numerical",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "compliant_contract.txt,sample_contract.docx,contradictory_policy_a.txt,policy_vendor_30_days.txt,missing_clauses_contract.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q070",
+    "query": "What is the allowed sub-processor notification timeline?",
+    "category": "Numerical",
+    "difficulty": "hard",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "compliant_contract.txt,policy_vendor_60_days.txt,contradictory_policy_a.txt,contradictory_policy_b.txt,non_conflicting_policy_a.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q071",
+    "query": "30 days prior notice required before engaging new sub-processors",
+    "category": "Numerical",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "policy_vendor_30_days.txt,contradictory_policy_a.txt,contradictory_policy_b.txt,policy_vendor_60_days.txt,sample_contract.docx",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q072",
+    "query": "Are personal email accounts allowed for corporate business?",
+    "category": "Policy/compliance",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "sample_policy.pdf,compliant_contract.txt,sample_contract.docx,contradictory_policy_a.txt,missing_clauses_contract.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q073",
+    "query": "Corporate communication strictly prohibited on personal accounts",
+    "category": "Exact keyword",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "sample_policy.pdf,compliant_contract.txt,contradictory_policy_a.txt,sample_contract.docx,sample_contract.docx",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q074",
+    "query": "What is the mandatory data destruction certification protocol?",
+    "category": "Policy/compliance",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_retention_policy",
+    "retrieved_top_5": "non_conflicting_policy_a.txt,contradictory_policy_a.txt,data_retention_7_years.txt,sample_policy.pdf,data_retention_3_years.txt",
+    "error_type": "Suboptimal Rank"
+  },
+  {
+    "query_id": "Q075",
+    "query": "Written certificate of sanitization issued within 15 days",
+    "category": "Numerical",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_retention_policy",
+    "retrieved_top_5": "compliant_contract.txt,sample_contract.docx,contradictory_policy_a.txt,missing_clauses_contract.txt,policy_vendor_30_days.txt",
+    "error_type": "Suboptimal Rank"
+  },
+  {
+    "query_id": "Q076",
+    "query": "What is the invoice dispute escalation period length?",
+    "category": "Numerical",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_payment_terms",
+    "retrieved_top_5": "compliant_contract.txt,payment_net30.txt,payment_net60.txt,missing_clauses_contract.txt,sample_contract.docx",
+    "error_type": "Suboptimal Rank"
+  },
+  {
+    "query_id": "Q077",
+    "query": "Invoice discrepancies must be raised within 10 business days",
+    "category": "Numerical",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_payment_terms",
+    "retrieved_top_5": "missing_clauses_contract.txt,payment_net30.txt,payment_net60.txt,compliant_contract.txt,contradictory_policy_b.txt",
+    "error_type": "Suboptimal Rank"
+  },
+  {
+    "query_id": "Q079",
+    "query": "Simple interest rate 1.5% per month applied to unpaid balance",
+    "category": "Numerical",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_payment_terms",
+    "retrieved_top_5": "missing_clauses_contract.txt,compliant_contract.txt,contradictory_policy_b.txt,contradictory_policy_a.txt,payment_net30.txt",
+    "error_type": "Suboptimal Rank"
+  },
+  {
+    "query_id": "Q081",
+    "query": "Multi-document requirement comparison between security policy and SLA",
+    "category": "Multi-document",
+    "difficulty": "hard",
+    "relevant_document_ids": "doc_security_policy,doc_sla_agreement",
+    "retrieved_top_5": "contradictory_policy_a.txt,non_conflicting_policy_a.txt,non_conflicting_policy_b.txt,contradictory_policy_b.txt,data_retention_7_years.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q082",
+    "query": "What is the vendor onboarding insurance requirement minimum?",
+    "category": "Numerical",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_vendor_policy",
+    "retrieved_top_5": "contradictory_policy_b.txt,policy_vendor_30_days.txt,contradictory_policy_a.txt,policy_vendor_60_days.txt,missing_clauses_contract.txt",
+    "error_type": "Suboptimal Rank"
+  },
+  {
+    "query_id": "Q083",
+    "query": "$2,000,000 general liability insurance coverage required",
+    "category": "Numerical",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_vendor_policy",
+    "retrieved_top_5": "compliant_contract.txt,missing_clauses_contract.txt,contradictory_policy_b.txt,contradictory_policy_a.txt,data_retention_3_years.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q084",
+    "query": "Cyber risk insurance coverage requirement minimum amount",
+    "category": "Numerical",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_vendor_policy",
+    "retrieved_top_5": "non_conflicting_policy_b.txt,non_conflicting_policy_a.txt,contradictory_policy_a.txt,compliant_contract.txt,contradictory_policy_b.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q085",
+    "query": "$5,000,000 cyber liability insurance coverage policy required",
+    "category": "Numerical",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_vendor_policy",
+    "retrieved_top_5": "non_conflicting_policy_a.txt,non_conflicting_policy_b.txt,contradictory_policy_a.txt,compliant_contract.txt,contradictory_policy_b.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q086",
+    "query": "What legal remedies exist for disclosure of trade secrets?",
+    "category": "Contractual",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_nda_agreement",
+    "retrieved_top_5": "compliant_contract.txt,sample_contract.docx,sample_contract.docx,sample_policy.pdf,missing_clauses_contract.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q087",
+    "query": "Injunctive relief without requirement of posting bond",
+    "category": "Exact keyword",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_nda_agreement",
+    "retrieved_top_5": "compliant_contract.txt,sample_contract.docx,contradictory_policy_b.txt,missing_clauses_contract.txt,contradictory_policy_a.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q088",
+    "query": "What is the non-solicitation restrictions period duration?",
+    "category": "Numerical",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_consulting_agreement",
+    "retrieved_top_5": "sample_contract.docx,compliant_contract.txt,contradictory_policy_a.txt,contradictory_policy_b.txt,sample_contract.docx",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q089",
+    "query": "12 months non-solicitation of company employees following term",
+    "category": "Numerical",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_consulting_agreement",
+    "retrieved_top_5": "compliant_contract.txt,sample_contract.docx,contradictory_policy_a.txt,data_retention_7_years.txt,data_retention_3_years.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q090",
+    "query": "Contradiction in SLA maintenance windows weekend vs weekday",
+    "category": "Contradiction",
+    "difficulty": "hard",
+    "relevant_document_ids": "doc_sla_a,doc_sla_b",
+    "retrieved_top_5": "compliant_contract.txt,missing_clauses_contract.txt,contradictory_policy_b.txt,contradictory_policy_a.txt,policy_vendor_60_days.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q096",
+    "query": "What is the maximum allowed file size for email attachments?",
+    "category": "Numerical",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "compliant_contract.txt,missing_clauses_contract.txt,sample_contract.docx,contradictory_policy_b.txt,contradictory_policy_a.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q097",
+    "query": "25MB maximum limit on incoming and outgoing email attachments",
+    "category": "Numerical",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "compliant_contract.txt,contradictory_policy_b.txt,contradictory_policy_a.txt,policy_vendor_30_days.txt,policy_vendor_60_days.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q098",
+    "query": "How often must security awareness training be completed?",
+    "category": "Numerical",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "non_conflicting_policy_a.txt,non_conflicting_policy_b.txt,contradictory_policy_a.txt,data_retention_7_years.txt,contradictory_policy_b.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q099",
+    "query": "Mandatory annual security training for all active contractors",
+    "category": "Exact keyword",
+    "difficulty": "easy",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "contradictory_policy_a.txt,non_conflicting_policy_b.txt,non_conflicting_policy_a.txt,contradictory_policy_b.txt,policy_vendor_60_days.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q100",
+    "query": "What protocol applies if a physical security badge is lost?",
+    "category": "Policy/compliance",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "compliant_contract.txt,non_conflicting_policy_a.txt,non_conflicting_policy_b.txt,sample_contract.docx,missing_clauses_contract.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q101",
+    "query": "Immediate deactivation of lost access badges within 1 hour",
+    "category": "Numerical",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_security_policy",
+    "retrieved_top_5": "compliant_contract.txt,sample_contract.docx,missing_clauses_contract.txt,contradictory_policy_a.txt,policy_vendor_60_days.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  },
+  {
+    "query_id": "Q102",
+    "query": "Who is responsible for third-party auditing costs?",
+    "category": "Contractual",
+    "difficulty": "medium",
+    "relevant_document_ids": "doc_vendor_policy",
+    "retrieved_top_5": "missing_clauses_contract.txt,compliant_contract.txt,data_retention_7_years.txt,data_retention_3_years.txt,contradictory_policy_b.txt",
+    "error_type": "False Negative / Ranking Deficit"
+  }
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "chunk_id": "2927d5e2-a1b5-4b7e-bd94-ba8b10584772",
+    "document_id": "b4649a25-e3a4-4540-99bd-4b45f4aa3599",
+    "filename": "compliant_contract.txt",
+    "file_type": "txt",
+    "page_number": 1,
+    "section": "General",
+    "chunk_index": 0,
+    "document_type": "Contract",
+    "text": "MASTER SERVICES AGREEMENT\n\nThis Master Services Agreement (\"Agreement\") is entered into and made effective as of January 15, 2026 (\"Effective Date\"), by and between Acme Global Solutions Inc., a Delaware corporation having its principal place of business at 100 Enterprise Way, Suite 400, Wilmington, DE 19801 (\"Client\"), and Vertex Cloud Technologies LLC, a California limited liability company (\"Provider\"). Section 1. Term of Agreement\nThis Agreement shall commence on the Effective Date and shall continue in full force and effect for an initial duration of three (3) years, expiring on January 15, 2029 (\"Term\"), unless earlier terminated in accordance with Section 4. Section 2. Confidentiality Obligations\nEach party agrees that all non-public technical, financial, customer, and business information (\"Confidential Information\") disclosed by one party to the other shall be kept strictly confidential. The receiving party shall not disclose Confidential Information to any third party without prior written consent and shall use at least reasonable care to prevent unauthorized disclosure. Section 3. Data Protection and Privacy\nProvider agrees to comply with all applicable data protection laws, including GDPR and CCPA. Provider shall implement reasonable technical and organizational measures to safeguard personal data processed on behalf of Client. Section 4. Termination Conditions\nEither party may terminate this Agreement for convenience by providing at least sixty (60) days prior written notice to the other party. Either party may terminate this Agreement immediately upon written notice if the other party breaches any material provision and fails to cure such breach within thirty (30) days of receiving notice. Section 5. Governing Law and Jurisdiction\nThis Agreement shall be governed by, construed, and enforced in accordance with the laws of the State of Delaware, without giving effect to its conflict of law principles. Any legal suit or proceeding shall be brought exclusively in the state or federal courts located in Wilmington, Delaware. Section 6. Dispute Resolution\nIn the event of any dispute arising out of or relating to this Agreement, the parties shall first attempt in good faith to resolve the dispute through informal executive negotiations. If unresolved within thirty (30) days, the dispute shall be submitted to binding arbitration under the rules of the American Arbitration Association (AAA). Section 7. Record Retention\nBoth parties shall maintain accurate transaction records and retain all compliance documentation for a period of seven (7) years following termination of this Agreement."
+  },
+  {
+    "chunk_id": "b7a7bbe5-c1bf-402c-af65-537980dda92d",
+    "document_id": "2ca137f9-dd65-492e-9b8e-a11a82ad64f5",
+    "filename": "contradictory_policy_a.txt",
+    "file_type": "txt",
+    "page_number": 1,
+    "section": "General",
+    "chunk_index": 0,
+    "document_type": "Other",
+    "text": "CORPORATE INFORMATION SECURITY POLICY - POLICY A\n\nDocument ID: POL-2026-A\nEffective Date: March 1, 2026\nOrganization: Global Enterprise Systems Inc. 1. Termination Notice Requirements\nUnder Policy A, all enterprise service providers and contractors must provide at least thirty (30) days advance written notice prior to terminating any active operational contract. 2. Document and Audit Retention\nAll customer data logs, financial transactions, and compliance audit records must be retained for a mandatory period of two (2) years from creation date. 3. Contract Expiration Date\nThe master vendor framework agreement expires on December 31, 2026."
+  },
+  {
+    "chunk_id": "e5cead15-e996-41a6-8085-b23f6a2128bd",
+    "document_id": "dc3f4f98-911d-403d-88e1-386bbce0224a",
+    "filename": "contradictory_policy_b.txt",
+    "file_type": "txt",
+    "page_number": 1,
+    "section": "General",
+    "chunk_index": 0,
+    "document_type": "Other",
+    "text": "VENDOR COMPLIANCE SCHEDULE - POLICY B\n\nDocument ID: POL-2026-B\nEffective Date: March 1, 2026\nOrganization: Global Enterprise Systems Inc. 1. Termination Notice Requirements\nUnder Policy B vendor requirements, all enterprise service providers and contractors must provide at least sixty (60) days advance written notice prior to terminating any active operational contract. 2. Document and Audit Retention\nAll customer data logs, financial transactions, and compliance audit records must be retained for a mandatory period of five (5) years from creation date. 3. Contract Expiration Date\nThe master vendor framework agreement expires on December 31, 2027."
+  },
+  {
+    "chunk_id": "09199810-e3d3-4277-bf78-a693cd2a277d",
+    "document_id": "859625b4-4f3a-48b1-8e40-17104d21f312",
+    "filename": "missing_clauses_contract.txt",
+    "file_type": "txt",
+    "page_number": 1,
+    "section": "General",
+    "chunk_index": 0,
+    "document_type": "Contract",
+    "text": "VENDOR CONSULTING AGREEMENT\n\nThis Consulting Agreement is dated February 1, 2026, between Horizon Logistics Corp (\"Client\") and Apex Advisory Group (\"Consultant\"). Scope of Services:\nConsultant agrees to provide supply chain optimization advice and technical reporting as requested by Client. Client shall pay Consultant a hourly rate of $250.00 USD for services rendered. Payment Terms:\nInvoices shall be submitted monthly and paid within thirty (30) days of receipt. Notice:\nAll notices shall be sent in writing to the corporate addresses of the parties.\n\n[Note: This document deliberately omits Confidentiality, Termination, Data Protection, and Governing Law clauses for testing compliance audit rules.]"
+  },
+  {
+    "chunk_id": "e303d51f-37a5-4bfc-9c98-10175569bf90",
+    "document_id": "82db2094-759d-4caf-ad32-7cbbeddfd0b8",
+    "filename": "sample_contract.docx",
+    "file_type": "docx",
+    "page_number": null,
+    "section": "General",
+    "chunk_index": 0,
+    "document_type": "NDA",
+    "text": "NON-DISCLOSURE AGREEMENT\nThis Non-Disclosure Agreement ('NDA') is effective as of January 10, 2026."
+  },
+  {
+    "chunk_id": "ccb0619b-f5ff-4238-983a-0bff0a5b4c0e",
+    "document_id": "82db2094-759d-4caf-ad32-7cbbeddfd0b8",
+    "filename": "sample_contract.docx",
+    "file_type": "docx",
+    "page_number": null,
+    "section": "1. Confidential Information",
+    "chunk_index": 1,
+    "document_type": "NDA",
+    "text": "Confidential Information includes technical specs, customer lists, and financial reports."
+  },
+  {
+    "chunk_id": "2d73ef2e-18a0-4fc5-bbf8-5f4f20637282",
+    "document_id": "82db2094-759d-4caf-ad32-7cbbeddfd0b8",
+    "filename": "sample_contract.docx",
+    "file_type": "docx",
+    "page_number": null,
+    "section": "2. Termination",
+    "chunk_index": 2,
+    "document_type": "NDA",
+    "text": "Either party may terminate this NDA with 30 days written notice.\n[TABLE]\nParty Name | Jurisdiction\nAcme Corp | Delaware, USA\n[/TABLE]"
+  },
+  {
+    "chunk_id": "958e01b2-406f-405b-b7a3-5b165bebe9f5",
+    "document_id": "c485cbd8-9c9c-43b5-bc92-6bfb38e11027",
+    "filename": "sample_policy.pdf",
+    "file_type": "pdf",
+    "page_number": 1,
+    "section": null,
+    "chunk_index": 0,
+    "document_type": "Company Policy",
+    "text": "COMPANY PRIVACY POLICY\nSection 1: Data Protection Principles\nWe comply with GDPR regulations. All personal data is processed lawfully and transparently."
+  },
+  {
+    "chunk_id": "e16b99c9-fbc0-4cc4-b997-21d47615b112",
+    "document_id": "c485cbd8-9c9c-43b5-bc92-6bfb38e11027",
+    "filename": "sample_policy.pdf",
+    "file_type": "pdf",
+    "page_number": 2,
+    "section": null,
+    "chunk_index": 1,
+    "document_type": "Company Policy",
+    "text": "Section 2: Governing Law\nThis policy is governed by the laws of California. Disputes shall be resolved in San Francisco courts."
+  },
+  {
+    "chunk_id": "9f922c47-ae69-4a53-89e7-856e7b536a9b",
+    "document_id": "eval-data_retention_3_years",
+    "filename": "data_retention_3_years.txt",
+    "file_type": "txt",
+    "page_number": 1,
+    "section": "General",
+    "chunk_index": 0,
+    "document_type": "Compliance Document",
+    "text": "DATA DELETION SCHEDULE - 3 YEARS\n\nDocument ID: POL-RETENTION-3\nOrganization: Acme Global Enterprise Inc. Section 2. Audit Record Retention\nEmployees must delete all customer data logs, financial transactions, and compliance records after three (3) years from creation date."
+  },
+  {
+    "chunk_id": "a48a74a2-72c6-4b01-9c2e-3cec29142a3c",
+    "document_id": "eval-data_retention_7_years",
+    "filename": "data_retention_7_years.txt",
+    "file_type": "txt",
+    "page_number": 1,
+    "section": "General",
+    "chunk_index": 0,
+    "document_type": "Compliance Document",
+    "text": "DATA RETENTION POLICY - 7 YEARS\n\nDocument ID: POL-RETENTION-7\nOrganization: Acme Global Enterprise Inc. Section 2. Audit Record Retention\nEmployees must retain all financial transactions, customer logs, and compliance records for seven (7) years from creation date."
+  },
+  {
+    "chunk_id": "17bc62ab-f0b8-4b13-9ee9-053fa410fb6a",
+    "document_id": "eval-non_conflicting_policy_a",
+    "filename": "non_conflicting_policy_a.txt",
+    "file_type": "txt",
+    "page_number": 1,
+    "section": "General",
+    "chunk_index": 0,
+    "document_type": "Other",
+    "text": "STANDARD OPERATING PROCEDURE - POLICY A\n\nDocument ID: SOP-2026-A\nOrganization: Acme Global Enterprise Inc. Section 1. Security Compliance\nAll employees must complete annual cybersecurity awareness training by December 31, 2026."
+  },
+  {
+    "chunk_id": "c7827895-7102-4970-a4f8-af4c821b587f",
+    "document_id": "eval-non_conflicting_policy_b",
+    "filename": "non_conflicting_policy_b.txt",
+    "file_type": "txt",
+    "page_number": 1,
+    "section": "General",
+    "chunk_index": 0,
+    "document_type": "Other",
+    "text": "STANDARD OPERATING PROCEDURE - POLICY B\n\nDocument ID: SOP-2026-B\nOrganization: Acme Global Enterprise Inc. Section 1. Security Compliance\nAll employees must complete annual cybersecurity awareness training by December 31, 2026."
+  },
+  {
+    "chunk_id": "726ed0e7-e765-4e5f-ad3a-18c1fbc25d27",
+    "document_id": "eval-payment_net30",
+    "filename": "payment_net30.txt",
+    "file_type": "txt",
+    "page_number": 1,
+    "section": "General",
+    "chunk_index": 0,
+    "document_type": "Invoice",
+    "text": "PAYMENT TERMS AGREEMENT - NET 30\n\nDocument ID: AGR-PAY-30\nOrganization: Acme Global Enterprise Inc. Section 3. Payment Terms\nPayment terms for all submitted vendor invoices are Net 30 days from invoice receipt date."
+  },
+  {
+    "chunk_id": "9671f477-2211-46cf-85c1-2645577a6f27",
+    "document_id": "eval-payment_net60",
+    "filename": "payment_net60.txt",
+    "file_type": "txt",
+    "page_number": 1,
+    "section": "General",
+    "chunk_index": 0,
+    "document_type": "Invoice",
+    "text": "PAYMENT TERMS SCHEDULE - NET 60\n\nDocument ID: AGR-PAY-60\nOrganization: Acme Global Enterprise Inc. Section 3. Payment Terms\nPayment terms for all submitted vendor invoices are Net 60 days from invoice receipt date."
+  },
+  {
+    "chunk_id": "cce8fe71-a426-45e1-a1e3-23e1196eb74e",
+    "document_id": "eval-policy_vendor_30_days",
+    "filename": "policy_vendor_30_days.txt",
+    "file_type": "txt",
+    "page_number": 1,
+    "section": "General",
+    "chunk_index": 0,
+    "document_type": "Other",
+    "text": "VENDOR MANAGEMENT POLICY - 30 DAYS NOTICE\n\nDocument ID: POL-VENDOR-30\nOrganization: Acme Global Enterprise Inc. Effective Date: January 1, 2026\n\nSection 1. Vendor Termination Notice\nAll vendors must provide at least 30 days advance written notice before terminating an active operational contract."
+  },
+  {
+    "chunk_id": "f21a1d04-026a-4b90-aba0-5c23e8751921",
+    "document_id": "eval-policy_vendor_60_days",
+    "filename": "policy_vendor_60_days.txt",
+    "file_type": "txt",
+    "page_number": 1,
+    "section": "General",
+    "chunk_index": 0,
+    "document_type": "Other",
+    "text": "VENDOR COMPLIANCE SCHEDULE - 60 DAYS NOTICE\n\nDocument ID: POL-VENDOR-60\nOrganization: Acme Global Enterprise Inc. Effective Date: March 1, 2026\n\nSection 1. Vendor Termination Notice\nAll vendors must provide at least 60 days advance written notice before terminating an active operational contract."
+  }
+]

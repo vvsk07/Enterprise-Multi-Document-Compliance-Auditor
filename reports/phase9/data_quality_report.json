@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-09-30T23:21:40.092307",
+  "document_count": 8,
+  "chunk_count": 17,
+  "document_types": [
+    "PDF",
+    "DOCX",
+    "TXT"
+  ],
+  "ocr_document_count": 1,
+  "average_chunk_length_words": 85.4,
+  "benchmark_query_count": 102,
+  "supported_languages": [
+    "en"
+  ]
+}

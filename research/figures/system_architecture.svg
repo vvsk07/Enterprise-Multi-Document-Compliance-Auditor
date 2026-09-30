@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" width="100%" height="100%">
+  <style>
+    .bg { fill: #0f172a; }
+    .box { fill: #1e293b; stroke: #38bdf8; stroke-width: 2; rx: 8; }
+    .accent-box { fill: #1e293b; stroke: #f43f5e; stroke-width: 2; rx: 8; }
+    .text { fill: #f8fafc; font-family: system-ui, sans-serif; font-size: 13px; font-weight: 600; text-anchor: middle; }
+    .subtext { fill: #94a3b8; font-family: system-ui, sans-serif; font-size: 11px; text-anchor: middle; }
+    .line { stroke: #64748b; stroke-width: 2; marker-end: url(#arrow); }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="900" height="450"/>
+  
+  <!-- Ingestion -->
+  <rect class="box" x="30" y="190" width="130" height="60"/>
+  <text class="text" x="95" y="220">Documents</text>
+  <text class="subtext" x="95" y="238">PDF, DOCX, TXT</text>
+
+  <!-- Ingestion Arrow -->
+  <line class="line" x1="160" y1="220" x2="200" y2="220"/>
+
+  <!-- Chunking -->
+  <rect class="box" x="205" y="190" width="130" height="60"/>
+  <text class="text" x="270" y="220">NLP &amp; Chunking</text>
+  <text class="subtext" x="270" y="238">SpaCy / Windowing</text>
+
+  <!-- Split arrows -->
+  <line class="line" x1="335" y1="220" x2="375" y2="150"/>
+  <line class="line" x1="335" y1="220" x2="375" y2="290"/>
+
+  <!-- BM25 -->
+  <rect class="box" x="380" y="120" width="130" height="60"/>
+  <text class="text" x="445" y="150">BM25 Okapi</text>
+  <text class="subtext" x="445" y="168">Lexical Inverted Index</text>
+
+  <!-- FAISS -->
+  <rect class="box" x="380" y="260" width="130" height="60"/>
+  <text class="text" x="445" y="290">FAISS Store</text>
+  <text class="subtext" x="445" y="308">Dense Embeddings</text>
+
+  <!-- Join arrows -->
+  <line class="line" x1="510" y1="150" x2="550" y2="220"/>
+  <line class="line" x1="510" y1="290" x2="550" y2="220"/>
+
+  <!-- Hybrid Fusion -->
+  <rect class="box" x="555" y="190" width="130" height="60"/>
+  <text class="text" x="620" y="220">Hybrid Fusion</text>
+  <text class="subtext" x="620" y="238">Min-Max Normalized</text>
+
+  <!-- Arrow to Reranker -->
+  <line class="line" x1="685" y1="220" x2="725" y2="220"/>
+
+  <!-- Reranker -->
+  <rect class="accent-box" x="730" y="190" width="140" height="60"/>
+  <text class="text" x="800" y="220">Cross-Encoder</text>
+  <text class="subtext" x="800" y="238">ms-marco-MiniLM-L6</text>
+</svg>

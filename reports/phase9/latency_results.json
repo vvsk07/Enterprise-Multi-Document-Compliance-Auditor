@@ -1,0 +1,66 @@
+[
+  {
+    "operation": "FAISS search",
+    "avg_ms": 33.2,
+    "p50_ms": 24.4,
+    "p90_ms": 115.6,
+    "p95_ms": 115.6,
+    "p99_ms": 115.6
+  },
+  {
+    "operation": "BM25 search",
+    "avg_ms": 0.0,
+    "p50_ms": 0.0,
+    "p90_ms": 0.1,
+    "p95_ms": 0.1,
+    "p99_ms": 0.1
+  },
+  {
+    "operation": "Hybrid search",
+    "avg_ms": 31.4,
+    "p50_ms": 29.9,
+    "p90_ms": 64.1,
+    "p95_ms": 64.1,
+    "p99_ms": 64.1
+  },
+  {
+    "operation": "Cross encoder",
+    "avg_ms": 32.4,
+    "p50_ms": 30.7,
+    "p90_ms": 72.9,
+    "p95_ms": 72.9,
+    "p99_ms": 72.9
+  },
+  {
+    "operation": "Advanced RAG",
+    "avg_ms": 606.1,
+    "p50_ms": 557.3,
+    "p90_ms": 1099.7,
+    "p95_ms": 1099.7,
+    "p99_ms": 1099.7
+  },
+  {
+    "operation": "Compliance audit",
+    "avg_ms": 951.9,
+    "p50_ms": 928.1,
+    "p90_ms": 1350.0,
+    "p95_ms": 1350.0,
+    "p99_ms": 1350.0
+  },
+  {
+    "operation": "Contradiction detection",
+    "avg_ms": 644.1,
+    "p50_ms": 610.8,
+    "p90_ms": 1104.1,
+    "p95_ms": 1104.1,
+    "p99_ms": 1104.1
+  },
+  {
+    "operation": "Risk calculation",
+    "avg_ms": 19.3,
+    "p50_ms": 18.4,
+    "p90_ms": 26.9,
+    "p95_ms": 26.9,
+    "p99_ms": 26.9
+  }
+]

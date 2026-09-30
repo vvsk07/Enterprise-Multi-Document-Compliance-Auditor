@@ -1,0 +1,24 @@
+MASTER SERVICES AGREEMENT
+
+This Master Services Agreement ("Agreement") is entered into and made effective as of January 15, 2026 ("Effective Date"), by and between Acme Global Solutions Inc., a Delaware corporation having its principal place of business at 100 Enterprise Way, Suite 400, Wilmington, DE 19801 ("Client"), and Vertex Cloud Technologies LLC, a California limited liability company ("Provider").
+
+Section 1. Term of Agreement
+This Agreement shall commence on the Effective Date and shall continue in full force and effect for an initial duration of three (3) years, expiring on January 15, 2029 ("Term"), unless earlier terminated in accordance with Section 4.
+
+Section 2. Confidentiality Obligations
+Each party agrees that all non-public technical, financial, customer, and business information ("Confidential Information") disclosed by one party to the other shall be kept strictly confidential. The receiving party shall not disclose Confidential Information to any third party without prior written consent and shall use at least reasonable care to prevent unauthorized disclosure.
+
+Section 3. Data Protection and Privacy
+Provider agrees to comply with all applicable data protection laws, including GDPR and CCPA. Provider shall implement reasonable technical and organizational measures to safeguard personal data processed on behalf of Client.
+
+Section 4. Termination Conditions
+Either party may terminate this Agreement for convenience by providing at least sixty (60) days prior written notice to the other party. Either party may terminate this Agreement immediately upon written notice if the other party breaches any material provision and fails to cure such breach within thirty (30) days of receiving notice.
+
+Section 5. Governing Law and Jurisdiction
+This Agreement shall be governed by, construed, and enforced in accordance with the laws of the State of Delaware, without giving effect to its conflict of law principles. Any legal suit or proceeding shall be brought exclusively in the state or federal courts located in Wilmington, Delaware.
+
+Section 6. Dispute Resolution
+In the event of any dispute arising out of or relating to this Agreement, the parties shall first attempt in good faith to resolve the dispute through informal executive negotiations. If unresolved within thirty (30) days, the dispute shall be submitted to binding arbitration under the rules of the American Arbitration Association (AAA).
+
+Section 7. Record Retention
+Both parties shall maintain accurate transaction records and retain all compliance documentation for a period of seven (7) years following termination of this Agreement.

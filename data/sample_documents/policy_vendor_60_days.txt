@@ -1,0 +1,8 @@
+VENDOR COMPLIANCE SCHEDULE - 60 DAYS NOTICE
+
+Document ID: POL-VENDOR-60
+Organization: Acme Global Enterprise Inc.
+Effective Date: March 1, 2026
+
+Section 1. Vendor Termination Notice
+All vendors must provide at least 60 days advance written notice before terminating an active operational contract.

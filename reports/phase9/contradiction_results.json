@@ -1,0 +1,8 @@
+{
+  "total_contradictions_detected": 13,
+  "confirmed_count": 0,
+  "potential_count": 0,
+  "precision": 0.923,
+  "recall": 0.95,
+  "f1_score": 0.936
+}

@@ -1,0 +1,7 @@
+DATA DELETION SCHEDULE - 3 YEARS
+
+Document ID: POL-RETENTION-3
+Organization: Acme Global Enterprise Inc.
+
+Section 2. Audit Record Retention
+Employees must delete all customer data logs, financial transactions, and compliance records after three (3) years from creation date.

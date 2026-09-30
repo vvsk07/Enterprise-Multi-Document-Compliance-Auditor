@@ -1,0 +1,14 @@
+CORPORATE INFORMATION SECURITY POLICY - POLICY A
+
+Document ID: POL-2026-A
+Effective Date: March 1, 2026
+Organization: Global Enterprise Systems Inc.
+
+1. Termination Notice Requirements
+Under Policy A, all enterprise service providers and contractors must provide at least thirty (30) days advance written notice prior to terminating any active operational contract.
+
+2. Document and Audit Retention
+All customer data logs, financial transactions, and compliance audit records must be retained for a mandatory period of two (2) years from creation date.
+
+3. Contract Expiration Date
+The master vendor framework agreement expires on December 31, 2026.

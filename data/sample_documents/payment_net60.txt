@@ -1,0 +1,7 @@
+PAYMENT TERMS SCHEDULE - NET 60
+
+Document ID: AGR-PAY-60
+Organization: Acme Global Enterprise Inc.
+
+Section 3. Payment Terms
+Payment terms for all submitted vendor invoices are Net 60 days from invoice receipt date.

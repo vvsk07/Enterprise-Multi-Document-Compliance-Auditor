@@ -1,0 +1,7 @@
+DATA RETENTION POLICY - 7 YEARS
+
+Document ID: POL-RETENTION-7
+Organization: Acme Global Enterprise Inc.
+
+Section 2. Audit Record Retention
+Employees must retain all financial transactions, customer logs, and compliance records for seven (7) years from creation date.

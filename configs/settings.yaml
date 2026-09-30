@@ -1,0 +1,100 @@
+app:
+  name: "enterprise-compliance-auditor"
+  title: "Enterprise Compliance Auditor"
+  version: "8.0.0"
+  environment: "development"
+
+document_processing:
+  max_file_size_mb: 25
+  supported_extensions:
+    - ".pdf"
+    - ".docx"
+    - ".txt"
+  chunk_size: 500
+  chunk_overlap: 50
+
+retrieval:
+  bm25_weight: 0.40
+  dense_weight: 0.60
+  candidate_k: 20
+  final_k: 5
+  persistence_path: "data/processed/bm25_index.json"
+
+reranker:
+  enabled: true
+  model: "cross-encoder/ms-marco-MiniLM-L-6-v2"
+  candidate_k: 20
+  final_k: 5
+  batch_size: 8
+
+security:
+  enabled: false
+  api_key_header: "X-API-Key"
+  api_key_env_var: "AUDITOR_API_KEY"
+
+api:
+  max_query_length: 2000
+  max_top_k: 50
+  max_upload_size_mb: 25
+  rate_limit:
+    enabled: true
+    requests_per_minute: 60
+
+logging:
+  level: "INFO"
+  format: "json"
+
+metrics:
+  enabled: true
+
+audit:
+  enabled: true
+
+nlp:
+  spacy_model: "en_core_web_sm"
+  classification_baseline: "tfidf_logistic_regression"
+
+risk:
+  enabled: true
+
+  weights:
+    compliance: 0.45
+    contradiction: 0.30
+    severity: 0.15
+    review: 0.10
+
+  thresholds:
+    low_max: 24.99
+    medium_max: 49.99
+    high_max: 74.99
+    critical_max: 100.0
+
+  contradiction:
+    confirmed_multiplier: 1.0
+    potential_multiplier: 0.5
+    reviewed_multiplier: 0.25
+    dismissed_multiplier: 0.0
+
+  severity:
+    high: 1.0
+    medium: 0.6
+    low: 0.3
+
+compliance:
+  semantic_match_threshold: 0.55
+  strong_match_threshold: 0.70
+  default_status: "NEEDS_REVIEW"
+
+contradiction:
+  enabled: true
+  semantic_similarity_threshold: 0.65
+  contradiction_threshold: 0.70
+  potential_threshold: 0.50
+  max_candidates_per_chunk: 5
+  weights:
+    semantic: 0.35
+    numeric: 0.25
+    negation: 0.20
+    keyword: 0.10
+    domain_rule: 0.10
+

@@ -1,0 +1,142 @@
+[
+  {
+    "query_id": "Q01",
+    "query": "What is the vendor termination notice period?",
+    "category": "compliance",
+    "expected_keywords": ["termination", "notice", "days"],
+    "expected_doc_types": ["Contract", "Policy"]
+  },
+  {
+    "query_id": "Q02",
+    "query": "What is the required data retention period?",
+    "category": "compliance",
+    "expected_keywords": ["retention", "years"],
+    "expected_doc_types": ["Policy"]
+  },
+  {
+    "query_id": "Q03",
+    "query": "What are the payment terms in the agreement?",
+    "category": "financial",
+    "expected_keywords": ["payment", "net", "invoice", "days"],
+    "expected_doc_types": ["Contract", "Invoice"]
+  },
+  {
+    "query_id": "Q04",
+    "query": "Is confidentiality mandated for proprietary information?",
+    "category": "semantic",
+    "expected_keywords": ["confidentiality", "proprietary", "secret"],
+    "expected_doc_types": ["Contract", "NDA"]
+  },
+  {
+    "query_id": "Q05",
+    "query": "What governing law jurisdiction applies?",
+    "category": "compliance",
+    "expected_keywords": ["governing", "law", "jurisdiction", "court"],
+    "expected_doc_types": ["Contract", "NDA"]
+  },
+  {
+    "query_id": "Q06",
+    "query": "How many days notice are required before cancelling a vendor service?",
+    "category": "paraphrased",
+    "expected_keywords": ["notice", "days", "terminate", "cancel"],
+    "expected_doc_types": ["Contract"]
+  },
+  {
+    "query_id": "Q07",
+    "query": "30 days written notice for contract termination",
+    "category": "keyword",
+    "expected_keywords": ["30", "days", "notice", "written"],
+    "expected_doc_types": ["Contract"]
+  },
+  {
+    "query_id": "Q08",
+    "query": "7 years customer record preservation rule",
+    "category": "keyword",
+    "expected_keywords": ["7", "years", "preservation", "retention"],
+    "expected_doc_types": ["Policy"]
+  },
+  {
+    "query_id": "Q09",
+    "query": "Net 30 days payment deadline requirement",
+    "category": "keyword",
+    "expected_keywords": ["net", "30", "days", "payment"],
+    "expected_doc_types": ["Contract", "Invoice"]
+  },
+  {
+    "query_id": "Q10",
+    "query": "Are external USB flash drives permitted on corporate laptops?",
+    "category": "contradiction",
+    "expected_keywords": ["usb", "drives", "permitted", "prohibited"],
+    "expected_doc_types": ["Policy"]
+  },
+  {
+    "query_id": "Q11",
+    "query": "What is the liability cap limitation amount?",
+    "category": "numerical",
+    "expected_keywords": ["liability", "cap", "limitation", "maximum"],
+    "expected_doc_types": ["Contract"]
+  },
+  {
+    "query_id": "Q12",
+    "query": "Data protection and encryption standard requirements",
+    "category": "compliance",
+    "expected_keywords": ["encryption", "data", "protection", "security"],
+    "expected_doc_types": ["Policy"]
+  },
+  {
+    "query_id": "Q13",
+    "query": "Confidential information non-disclosure duration obligations",
+    "category": "paraphrased",
+    "expected_keywords": ["confidential", "non-disclosure", "duration", "years"],
+    "expected_doc_types": ["NDA"]
+  },
+  {
+    "query_id": "Q14",
+    "query": "Indemnification obligations for third party intellectual property claims",
+    "category": "compliance",
+    "expected_keywords": ["indemnification", "claims", "intellectual", "property"],
+    "expected_doc_types": ["Contract"]
+  },
+  {
+    "query_id": "Q15",
+    "query": "What is the dispute resolution venue?",
+    "category": "semantic",
+    "expected_keywords": ["dispute", "resolution", "arbitration", "court"],
+    "expected_doc_types": ["Contract"]
+  },
+  {
+    "query_id": "Q16",
+    "query": "Discrepancy in termination notice between vendor and master agreement",
+    "category": "contradiction",
+    "expected_keywords": ["discrepancy", "termination", "notice", "conflict"],
+    "expected_doc_types": ["Contract"]
+  },
+  {
+    "query_id": "Q17",
+    "query": "Audit rights and record inspection policy",
+    "category": "compliance",
+    "expected_keywords": ["audit", "inspection", "records", "rights"],
+    "expected_doc_types": ["Policy", "Contract"]
+  },
+  {
+    "query_id": "Q18",
+    "query": "SLA uptime guarantee percentage threshold",
+    "category": "numerical",
+    "expected_keywords": ["sla", "uptime", "availability", "percent"],
+    "expected_doc_types": ["Contract", "Policy"]
+  },
+  {
+    "query_id": "Q19",
+    "query": "Force majeure and natural disaster excusable delays",
+    "category": "semantic",
+    "expected_keywords": ["force", "majeure", "delay", "event"],
+    "expected_doc_types": ["Contract"]
+  },
+  {
+    "query_id": "Q20",
+    "query": "Subcontractor assignment and transfer restrictions",
+    "category": "compliance",
+    "expected_keywords": ["assignment", "subcontractor", "transfer", "consent"],
+    "expected_doc_types": ["Contract"]
+  }
+]

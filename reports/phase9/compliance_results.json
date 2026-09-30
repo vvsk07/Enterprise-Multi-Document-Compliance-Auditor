@@ -1,0 +1,9 @@
+{
+  "total_rules_evaluated": 140,
+  "pass_count": 17,
+  "fail_count": 14,
+  "review_count": 2,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1_score": 1.0
+}

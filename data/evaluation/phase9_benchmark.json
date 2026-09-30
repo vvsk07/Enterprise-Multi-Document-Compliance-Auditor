@@ -1,0 +1,818 @@
+[
+  {
+    "query_id": "Q001",
+    "query": "What is the vendor termination notice requirement?",
+    "relevant_document_ids": ["doc_consulting_agreement", "doc_vendor_policy"],
+    "relevant_chunk_ids": ["chunk_consulting_term", "chunk_vendor_notice"],
+    "category": "Contractual",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q002",
+    "query": "What is the required data retention period for customer records?",
+    "relevant_document_ids": ["doc_retention_policy"],
+    "relevant_chunk_ids": ["chunk_retention_period"],
+    "category": "Policy/compliance",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q003",
+    "query": "What are the payment terms in the consulting agreement?",
+    "relevant_document_ids": ["doc_consulting_agreement", "doc_payment_terms"],
+    "relevant_chunk_ids": ["chunk_payment_terms"],
+    "category": "Contractual",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q004",
+    "query": "Is confidentiality mandated for vendor employees?",
+    "relevant_document_ids": ["doc_nda_agreement"],
+    "relevant_chunk_ids": ["chunk_nda_confidentiality"],
+    "category": "Policy/compliance",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q005",
+    "query": "What governing law jurisdiction applies to the vendor contract?",
+    "relevant_document_ids": ["doc_msa_agreement"],
+    "relevant_chunk_ids": ["chunk_msa_governing_law"],
+    "category": "Contractual",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q006",
+    "query": "How many days notice are required before audit inspection?",
+    "relevant_document_ids": ["doc_vendor_policy"],
+    "relevant_chunk_ids": ["chunk_audit_rights"],
+    "category": "Numerical",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q007",
+    "query": "30 days written notice for contract termination",
+    "relevant_document_ids": ["doc_consulting_agreement"],
+    "relevant_chunk_ids": ["chunk_consulting_term"],
+    "category": "Exact keyword",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q008",
+    "query": "7 years customer record preservation obligation",
+    "relevant_document_ids": ["doc_retention_policy"],
+    "relevant_chunk_ids": ["chunk_retention_period"],
+    "category": "Numerical",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q009",
+    "query": "Net 30 days payment deadline requirements",
+    "relevant_document_ids": ["doc_payment_terms"],
+    "relevant_chunk_ids": ["chunk_payment_terms"],
+    "category": "Numerical",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q010",
+    "query": "Are external USB flash drives permitted on corporate laptops?",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_usb"],
+    "category": "Policy/compliance",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q011",
+    "query": "What is the liability cap limitation amount in MSA?",
+    "relevant_document_ids": ["doc_msa_agreement"],
+    "relevant_chunk_ids": ["chunk_msa_liability"],
+    "category": "Contractual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q012",
+    "query": "Data protection and encryption standard requirements",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_encryption"],
+    "category": "Policy/compliance",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q013",
+    "query": "Confidential information non-disclosure duration obligations",
+    "relevant_document_ids": ["doc_nda_agreement"],
+    "relevant_chunk_ids": ["chunk_nda_confidentiality"],
+    "category": "Semantic paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q014",
+    "query": "Indemnification obligations for third-party IP infringement claims",
+    "relevant_document_ids": ["doc_msa_agreement"],
+    "relevant_chunk_ids": ["chunk_msa_indemnity"],
+    "category": "Contractual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q015",
+    "query": "What is the dispute resolution procedure specified?",
+    "relevant_document_ids": ["doc_msa_agreement"],
+    "relevant_chunk_ids": ["chunk_msa_dispute"],
+    "category": "Semantic paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q016",
+    "query": "Discrepancy in termination notice between Policy A and Policy B",
+    "relevant_document_ids": ["doc_vendor_policy_a", "doc_vendor_policy_b"],
+    "relevant_chunk_ids": ["chunk_policy_a_term", "chunk_policy_b_term"],
+    "category": "Contradiction",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q017",
+    "query": "Audit rights and record inspection window clause",
+    "relevant_document_ids": ["doc_vendor_policy"],
+    "relevant_chunk_ids": ["chunk_audit_rights"],
+    "category": "Contractual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q018",
+    "query": "SLA uptime guarantee percentage threshold requirement",
+    "relevant_document_ids": ["doc_sla_agreement"],
+    "relevant_chunk_ids": ["chunk_sla_uptime"],
+    "category": "Numerical",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q019",
+    "query": "Force majeure and natural disaster performance excusal terms",
+    "relevant_document_ids": ["doc_msa_agreement"],
+    "relevant_chunk_ids": ["chunk_msa_force_majeure"],
+    "category": "Semantic paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q020",
+    "query": "Subcontractor assignment and transfer restrictions",
+    "relevant_document_ids": ["doc_msa_agreement"],
+    "relevant_chunk_ids": ["chunk_msa_assignment"],
+    "category": "Contractual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q021",
+    "query": "What cryptocurrency payment options are available for invoices?",
+    "relevant_document_ids": [],
+    "relevant_chunk_ids": [],
+    "category": "Negative / unsupported",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q022",
+    "query": "What is the mandatory office arrival time for remote contractors?",
+    "relevant_document_ids": [],
+    "relevant_chunk_ids": [],
+    "category": "Negative / unsupported",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q023",
+    "query": "What company aircraft is assigned to vendor site visits?",
+    "relevant_document_ids": [],
+    "relevant_chunk_ids": [],
+    "category": "Negative / unsupported",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q024",
+    "query": "What is the stock option vesting schedule for third-party advisors?",
+    "relevant_document_ids": [],
+    "relevant_chunk_ids": [],
+    "category": "Negative / unsupported",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q025",
+    "query": "What is the company policy on employee pet insurance reimbursement?",
+    "relevant_document_ids": [],
+    "relevant_chunk_ids": [],
+    "category": "Negative / unsupported",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q026",
+    "query": "AES 256-bit encryption required at rest and in transit",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_encryption"],
+    "category": "Exact keyword",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q027",
+    "query": "Is multi-factor authentication mandatory for admin accounts?",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_mfa"],
+    "category": "Policy/compliance",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q028",
+    "query": "MFA enforced for all remote and cloud access",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_mfa"],
+    "category": "Exact keyword",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q029",
+    "query": "What is the breach notification period for data incidents?",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_breach"],
+    "category": "Numerical",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q030",
+    "query": "Security incidents must be reported within 24 hours",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_breach"],
+    "category": "Exact keyword",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q031",
+    "query": "What is the maximum penalty for late invoice payments?",
+    "relevant_document_ids": ["doc_payment_terms"],
+    "relevant_chunk_ids": ["chunk_payment_interest"],
+    "category": "Numerical",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q032",
+    "query": "1.5% monthly interest penalty on overdue invoices",
+    "relevant_document_ids": ["doc_payment_terms"],
+    "relevant_chunk_ids": ["chunk_payment_interest"],
+    "category": "Numerical",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q033",
+    "query": "How many days after invoice receipt is payment due?",
+    "relevant_document_ids": ["doc_payment_terms"],
+    "relevant_chunk_ids": ["chunk_payment_terms"],
+    "category": "Numerical",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q034",
+    "query": "Payment terms Net 30 vs Net 60 policy conflict",
+    "relevant_document_ids": ["doc_payment_terms_a", "doc_payment_terms_b"],
+    "relevant_chunk_ids": ["chunk_pay_a", "chunk_pay_b"],
+    "category": "Contradiction",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q035",
+    "query": "Are personal mobile devices permitted on corporate Wi-Fi?",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_byod"],
+    "category": "Policy/compliance",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q036",
+    "query": "BYOD policy requires mobile device management enrollment",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_byod"],
+    "category": "Semantic paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q037",
+    "query": "What is the annual SLA maintenance outage allowance?",
+    "relevant_document_ids": ["doc_sla_agreement"],
+    "relevant_chunk_ids": ["chunk_sla_outage"],
+    "category": "Numerical",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q038",
+    "query": "99.9% uptime target excludes scheduled maintenance",
+    "relevant_document_ids": ["doc_sla_agreement"],
+    "relevant_chunk_ids": ["chunk_sla_uptime"],
+    "category": "Exact keyword",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q039",
+    "query": "Service credit percentage for SLA breach under 99.0%",
+    "relevant_document_ids": ["doc_sla_agreement"],
+    "relevant_chunk_ids": ["chunk_sla_credits"],
+    "category": "Numerical",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q040",
+    "query": "10% monthly service fee credit for SLA failure",
+    "relevant_document_ids": ["doc_sla_agreement"],
+    "relevant_chunk_ids": ["chunk_sla_credits"],
+    "category": "Exact keyword",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q041",
+    "query": "Contradiction in data deletion timeline policy 3 years vs 7 years",
+    "relevant_document_ids": ["doc_deletion_a", "doc_deletion_b"],
+    "relevant_chunk_ids": ["chunk_del_a", "chunk_del_b"],
+    "category": "Contradiction",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q042",
+    "query": "Is immediate termination allowed for material breach of contract?",
+    "relevant_document_ids": ["doc_msa_agreement"],
+    "relevant_chunk_ids": ["chunk_msa_termination"],
+    "category": "Contractual",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q043",
+    "query": "Material breach permits immediate written termination notice",
+    "relevant_document_ids": ["doc_msa_agreement"],
+    "relevant_chunk_ids": ["chunk_msa_termination"],
+    "category": "Exact keyword",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q044",
+    "query": "What background check requirements apply to vendor personnel?",
+    "relevant_document_ids": ["doc_vendor_policy"],
+    "relevant_chunk_ids": ["chunk_vendor_screening"],
+    "category": "Policy/compliance",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q045",
+    "query": "Criminal background checks required prior to system access",
+    "relevant_document_ids": ["doc_vendor_policy"],
+    "relevant_chunk_ids": ["chunk_vendor_screening"],
+    "category": "Exact keyword",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q046",
+    "query": "What effective date applies to the Non-Disclosure Agreement?",
+    "relevant_document_ids": ["doc_nda_agreement"],
+    "relevant_chunk_ids": ["chunk_nda_date"],
+    "category": "Date-related",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q047",
+    "query": "Agreement effective date January 15 2024",
+    "relevant_document_ids": ["doc_nda_agreement"],
+    "relevant_chunk_ids": ["chunk_nda_date"],
+    "category": "Date-related",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q048",
+    "query": "When does the confidentiality obligation expire?",
+    "relevant_document_ids": ["doc_nda_agreement"],
+    "relevant_chunk_ids": ["chunk_nda_term"],
+    "category": "Date-related",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q049",
+    "query": "Survives for 5 years following termination of agreement",
+    "relevant_document_ids": ["doc_nda_agreement"],
+    "relevant_chunk_ids": ["chunk_nda_term"],
+    "category": "Date-related",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q050",
+    "query": "Who owns intellectual property created under work for hire?",
+    "relevant_document_ids": ["doc_consulting_agreement"],
+    "relevant_chunk_ids": ["chunk_ip_ownership"],
+    "category": "Contractual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q051",
+    "query": "Company retains exclusive ownership of all deliverables and IP",
+    "relevant_document_ids": ["doc_consulting_agreement"],
+    "relevant_chunk_ids": ["chunk_ip_ownership"],
+    "category": "Exact keyword",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q052",
+    "query": "What limitation of liability dollar amount is defined?",
+    "relevant_document_ids": ["doc_msa_agreement"],
+    "relevant_chunk_ids": ["chunk_msa_liability"],
+    "category": "Numerical",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q053",
+    "query": "Cap on aggregate liability equal to fees paid in prior 12 months",
+    "relevant_document_ids": ["doc_msa_agreement"],
+    "relevant_chunk_ids": ["chunk_msa_liability"],
+    "category": "Numerical",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q054",
+    "query": "Are punitive damages recoverable under breach of contract?",
+    "relevant_document_ids": ["doc_msa_agreement"],
+    "relevant_chunk_ids": ["chunk_msa_damages"],
+    "category": "Contractual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q055",
+    "query": "Neither party liable for consequential or punitive damages",
+    "relevant_document_ids": ["doc_msa_agreement"],
+    "relevant_chunk_ids": ["chunk_msa_damages"],
+    "category": "Exact keyword",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q056",
+    "query": "What notice period is required for SLA schedule modification?",
+    "relevant_document_ids": ["doc_sla_agreement"],
+    "relevant_chunk_ids": ["chunk_sla_notice"],
+    "category": "Numerical",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q057",
+    "query": "60 days prior written notice to alter service commitments",
+    "relevant_document_ids": ["doc_sla_agreement"],
+    "relevant_chunk_ids": ["chunk_sla_notice"],
+    "category": "Numerical",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q058",
+    "query": "What jurisdiction handles arbitration of disputes?",
+    "relevant_document_ids": ["doc_msa_agreement"],
+    "relevant_chunk_ids": ["chunk_msa_dispute"],
+    "category": "Entity-specific",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q059",
+    "query": "Binding arbitration held in New York State Supreme Court",
+    "relevant_document_ids": ["doc_msa_agreement"],
+    "relevant_chunk_ids": ["chunk_msa_dispute"],
+    "category": "Entity-specific",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q060",
+    "query": "Are annual security audits required for third-party vendors?",
+    "relevant_document_ids": ["doc_vendor_policy"],
+    "relevant_chunk_ids": ["chunk_audit_rights"],
+    "category": "Policy/compliance",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q061",
+    "query": "SOC 2 Type II audit report submission required annually",
+    "relevant_document_ids": ["doc_vendor_policy"],
+    "relevant_chunk_ids": ["chunk_audit_soc2"],
+    "category": "Entity-specific",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q062",
+    "query": "Is offshore data processing permitted for EU customer data?",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_gdpr"],
+    "category": "Policy/compliance",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q063",
+    "query": "GDPR compliance requires standard contractual clauses for transfers",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_gdpr"],
+    "category": "Entity-specific",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q064",
+    "query": "What is the policy regarding vendor password expiration?",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_passwords"],
+    "category": "Numerical",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q065",
+    "query": "Passwords must be rotated every 90 days with 14 char min",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_passwords"],
+    "category": "Numerical",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q066",
+    "query": "Contradiction in notice window 30 days in NDA vs 60 days in MSA",
+    "relevant_document_ids": ["doc_nda_agreement", "doc_msa_agreement"],
+    "relevant_chunk_ids": ["chunk_nda_notice", "chunk_msa_notice"],
+    "category": "Contradiction",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q067",
+    "query": "What software vulnerability patching window is mandated?",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_patching"],
+    "category": "Numerical",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q068",
+    "query": "Critical vulnerabilities patched within 14 days of release",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_patching"],
+    "category": "Numerical",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q069",
+    "query": "High severity security bugs remediated within 30 days",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_patching"],
+    "category": "Numerical",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q070",
+    "query": "What is the allowed sub-processor notification timeline?",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_gdpr"],
+    "category": "Numerical",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q071",
+    "query": "30 days prior notice required before engaging new sub-processors",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_gdpr"],
+    "category": "Numerical",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q072",
+    "query": "Are personal email accounts allowed for corporate business?",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_email"],
+    "category": "Policy/compliance",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q073",
+    "query": "Corporate communication strictly prohibited on personal accounts",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_email"],
+    "category": "Exact keyword",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q074",
+    "query": "What is the mandatory data destruction certification protocol?",
+    "relevant_document_ids": ["doc_retention_policy"],
+    "relevant_chunk_ids": ["chunk_retention_cert"],
+    "category": "Policy/compliance",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q075",
+    "query": "Written certificate of sanitization issued within 15 days",
+    "relevant_document_ids": ["doc_retention_policy"],
+    "relevant_chunk_ids": ["chunk_retention_cert"],
+    "category": "Numerical",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q076",
+    "query": "What is the invoice dispute escalation period length?",
+    "relevant_document_ids": ["doc_payment_terms"],
+    "relevant_chunk_ids": ["chunk_payment_dispute"],
+    "category": "Numerical",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q077",
+    "query": "Invoice discrepancies must be raised within 10 business days",
+    "relevant_document_ids": ["doc_payment_terms"],
+    "relevant_chunk_ids": ["chunk_payment_dispute"],
+    "category": "Numerical",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q078",
+    "query": "Is late payment fee compound or simple interest?",
+    "relevant_document_ids": ["doc_payment_terms"],
+    "relevant_chunk_ids": ["chunk_payment_interest"],
+    "category": "Contractual",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q079",
+    "query": "Simple interest rate 1.5% per month applied to unpaid balance",
+    "relevant_document_ids": ["doc_payment_terms"],
+    "relevant_chunk_ids": ["chunk_payment_interest"],
+    "category": "Numerical",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q080",
+    "query": "Multi-document contradiction across payment schedule and MSA",
+    "relevant_document_ids": ["doc_payment_terms", "doc_msa_agreement"],
+    "relevant_chunk_ids": ["chunk_payment_terms", "chunk_msa_payment"],
+    "category": "Multi-document",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q081",
+    "query": "Multi-document requirement comparison between security policy and SLA",
+    "relevant_document_ids": ["doc_security_policy", "doc_sla_agreement"],
+    "relevant_chunk_ids": ["chunk_sec_breach", "chunk_sla_outage"],
+    "category": "Multi-document",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q082",
+    "query": "What is the vendor onboarding insurance requirement minimum?",
+    "relevant_document_ids": ["doc_vendor_policy"],
+    "relevant_chunk_ids": ["chunk_vendor_insurance"],
+    "category": "Numerical",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q083",
+    "query": "$2,000,000 general liability insurance coverage required",
+    "relevant_document_ids": ["doc_vendor_policy"],
+    "relevant_chunk_ids": ["chunk_vendor_insurance"],
+    "category": "Numerical",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q084",
+    "query": "Cyber risk insurance coverage requirement minimum amount",
+    "relevant_document_ids": ["doc_vendor_policy"],
+    "relevant_chunk_ids": ["chunk_vendor_insurance"],
+    "category": "Numerical",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q085",
+    "query": "$5,000,000 cyber liability insurance coverage policy required",
+    "relevant_document_ids": ["doc_vendor_policy"],
+    "relevant_chunk_ids": ["chunk_vendor_insurance"],
+    "category": "Numerical",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q086",
+    "query": "What legal remedies exist for disclosure of trade secrets?",
+    "relevant_document_ids": ["doc_nda_agreement"],
+    "relevant_chunk_ids": ["chunk_nda_remedies"],
+    "category": "Contractual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q087",
+    "query": "Injunctive relief without requirement of posting bond",
+    "relevant_document_ids": ["doc_nda_agreement"],
+    "relevant_chunk_ids": ["chunk_nda_remedies"],
+    "category": "Exact keyword",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q088",
+    "query": "What is the non-solicitation restrictions period duration?",
+    "relevant_document_ids": ["doc_consulting_agreement"],
+    "relevant_chunk_ids": ["chunk_nonsolicit"],
+    "category": "Numerical",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q089",
+    "query": "12 months non-solicitation of company employees following term",
+    "relevant_document_ids": ["doc_consulting_agreement"],
+    "relevant_chunk_ids": ["chunk_nonsolicit"],
+    "category": "Numerical",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q090",
+    "query": "Contradiction in SLA maintenance windows weekend vs weekday",
+    "relevant_document_ids": ["doc_sla_a", "doc_sla_b"],
+    "relevant_chunk_ids": ["chunk_sla_win_a", "chunk_sla_win_b"],
+    "category": "Contradiction",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "Q091",
+    "query": "What company subsidizes employee parking garages in downtown?",
+    "relevant_document_ids": [],
+    "relevant_chunk_ids": [],
+    "category": "Negative / unsupported",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q092",
+    "query": "What brand of coffee machine is provided in office breakroom?",
+    "relevant_document_ids": [],
+    "relevant_chunk_ids": [],
+    "category": "Negative / unsupported",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q093",
+    "query": "What is the corporate gym membership allowance per month?",
+    "relevant_document_ids": [],
+    "relevant_chunk_ids": [],
+    "category": "Negative / unsupported",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q094",
+    "query": "How many vacation days do part-time vendors receive annually?",
+    "relevant_document_ids": [],
+    "relevant_chunk_ids": [],
+    "category": "Negative / unsupported",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q095",
+    "query": "What company match is provided for vendor 401k accounts?",
+    "relevant_document_ids": [],
+    "relevant_chunk_ids": [],
+    "category": "Negative / unsupported",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q096",
+    "query": "What is the maximum allowed file size for email attachments?",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_email"],
+    "category": "Numerical",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q097",
+    "query": "25MB maximum limit on incoming and outgoing email attachments",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_email"],
+    "category": "Numerical",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q098",
+    "query": "How often must security awareness training be completed?",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_training"],
+    "category": "Numerical",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q099",
+    "query": "Mandatory annual security training for all active contractors",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_training"],
+    "category": "Exact keyword",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q100",
+    "query": "What protocol applies if a physical security badge is lost?",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_badges"],
+    "category": "Policy/compliance",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q101",
+    "query": "Immediate deactivation of lost access badges within 1 hour",
+    "relevant_document_ids": ["doc_security_policy"],
+    "relevant_chunk_ids": ["chunk_sec_badges"],
+    "category": "Numerical",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q102",
+    "query": "Who is responsible for third-party auditing costs?",
+    "relevant_document_ids": ["doc_vendor_policy"],
+    "relevant_chunk_ids": ["chunk_audit_rights"],
+    "category": "Contractual",
+    "difficulty": "medium"
+  }
+]

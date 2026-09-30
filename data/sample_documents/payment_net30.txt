@@ -1,0 +1,7 @@
+PAYMENT TERMS AGREEMENT - NET 30
+
+Document ID: AGR-PAY-30
+Organization: Acme Global Enterprise Inc.
+
+Section 3. Payment Terms
+Payment terms for all submitted vendor invoices are Net 30 days from invoice receipt date.

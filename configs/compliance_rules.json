@@ -1,0 +1,194 @@
+[
+  {
+    "rule_id": "RULE-001",
+    "name": "Confidentiality Clause",
+    "description": "Agreement must contain an explicit confidentiality or non-disclosure obligation.",
+    "category": "Confidentiality",
+    "severity": "HIGH",
+    "enabled": true,
+    "requirement": "Agreement must include explicit provisions protecting confidential and proprietary information.",
+    "document_types": ["Contract", "NDA", "Employment Agreement"],
+    "required_for": ["Contract", "NDA", "Employment Agreement"],
+    "keywords": ["confidential", "confidentiality", "non-disclosure", "proprietary information"],
+    "patterns": ["(?i)confidential(ity)?\\s+(clause|obligation|agreement|information)"],
+    "evaluation": {
+      "type": "presence",
+      "semantic_query": "confidentiality non-disclosure proprietary information obligations"
+    },
+    "remediation": "Incorporate a standard confidentiality clause specifying obligations and exclusions.",
+    "recommendation": "Incorporate a standard confidentiality clause specifying obligations and exclusions."
+  },
+  {
+    "rule_id": "RULE-002",
+    "name": "Agreement Duration & Term",
+    "description": "Agreement must explicitly state its effective duration or term.",
+    "category": "Terms & Conditions",
+    "severity": "MEDIUM",
+    "enabled": true,
+    "requirement": "Agreement must define a valid start date, duration, or term length.",
+    "document_types": ["Contract", "NDA", "Employment Agreement", "Vendor Agreement"],
+    "required_for": ["Contract", "NDA", "Employment Agreement", "Vendor Agreement"],
+    "keywords": ["term", "duration", "expiration", "effective date", "valid until", "period of"],
+    "patterns": ["(?i)(term|duration)\\s+of\\s+this\\s+agreement", "(?i)valid\\s+for\\s+\\d+\\s+(years|months)"],
+    "evaluation": {
+      "type": "presence",
+      "semantic_query": "agreement term duration validity period effective date"
+    },
+    "remediation": "Define clear start and end dates or termination triggers for the agreement term.",
+    "recommendation": "Define clear start and end dates or termination triggers for the agreement term."
+  },
+  {
+    "rule_id": "RULE-003",
+    "name": "Termination Conditions",
+    "description": "Clear conditions for agreement termination with notice periods must exist.",
+    "category": "Termination",
+    "severity": "HIGH",
+    "enabled": true,
+    "requirement": "Agreement must detail termination procedures, notice periods, and cause criteria.",
+    "document_types": ["Contract", "NDA", "Employment Agreement", "Vendor Agreement"],
+    "required_for": ["Contract", "NDA", "Employment Agreement", "Vendor Agreement"],
+    "keywords": ["termination", "terminate", "notice period", "breach of contract", "written notice"],
+    "patterns": ["(?i)may\\s+terminate\\s+(this\\s+agreement|upon)", "(?i)\\d+\\s+days?\\s+(written\\s+)?notice"],
+    "evaluation": {
+      "type": "semantic",
+      "semantic_query": "termination notice period written notice breach of contract agreement termination"
+    },
+    "remediation": "Add a termination clause detailing written notice requirements and cure periods.",
+    "recommendation": "Add a termination clause detailing written notice requirements and cure periods."
+  },
+  {
+    "rule_id": "RULE-004",
+    "name": "Data Protection & Privacy",
+    "description": "Compliance with applicable data protection regulations (e.g. GDPR, CCPA).",
+    "category": "Data Governance",
+    "severity": "HIGH",
+    "enabled": true,
+    "requirement": "Document must mandate personal data protection, privacy compliance, and handling guidelines.",
+    "document_types": ["Company Policy", "Compliance Document", "Vendor Agreement", "Contract"],
+    "required_for": ["Company Policy", "Compliance Document", "Vendor Agreement", "Contract"],
+    "keywords": ["data protection", "privacy", "gdpr", "personal data", "data processing", "ccpa"],
+    "patterns": ["(?i)data\\s+protection", "(?i)personal\\s+data", "(?i)gdpr|ccpa"],
+    "evaluation": {
+      "type": "semantic",
+      "semantic_query": "data protection privacy gdpr personal data processing compliance"
+    },
+    "remediation": "Insert a comprehensive data processing and privacy protection schedule.",
+    "recommendation": "Insert a comprehensive data processing and privacy protection schedule."
+  },
+  {
+    "rule_id": "RULE-005",
+    "name": "Governing Law & Jurisdiction",
+    "description": "Specified legal jurisdiction and governing law clause.",
+    "category": "Legal & Jurisdiction",
+    "severity": "MEDIUM",
+    "enabled": true,
+    "requirement": "Legal jurisdiction and applicable governing law must be stated.",
+    "document_types": ["Contract", "NDA", "Employment Agreement", "Legal Document", "Vendor Agreement"],
+    "required_for": ["Contract", "NDA", "Employment Agreement", "Legal Document", "Vendor Agreement"],
+    "keywords": ["governing law", "jurisdiction", "construed in accordance with", "courts of", "governed by"],
+    "patterns": ["(?i)governed\\s+by\\s+and\\s+construed\\s+in\\s+accordance\\s+with", "(?i)exclusive\\s+jurisdiction\\s+of"],
+    "evaluation": {
+      "type": "keyword",
+      "semantic_query": "governing law jurisdiction legal court jurisdiction state law"
+    },
+    "remediation": "Specify the applicable state/national law and primary court jurisdiction.",
+    "recommendation": "Specify the applicable state/national law and primary court jurisdiction."
+  },
+  {
+    "rule_id": "RULE-006",
+    "name": "Dispute Resolution",
+    "description": "Framework for resolving disputes (arbitration, mediation, or litigation).",
+    "category": "Legal & Jurisdiction",
+    "severity": "MEDIUM",
+    "enabled": true,
+    "requirement": "Dispute resolution mechanisms (mediation/arbitration) must be defined.",
+    "document_types": ["Contract", "Employment Agreement", "Vendor Agreement"],
+    "required_for": ["Contract", "Employment Agreement", "Vendor Agreement"],
+    "keywords": ["dispute resolution", "arbitration", "mediation", "settlement", "dispute"],
+    "patterns": ["(?i)dispute\\s+resolution", "(?i)binding\\s+arbitration", "(?i)shall\\s+be\\s+settled\\s+by\\s+arbitration"],
+    "evaluation": {
+      "type": "presence",
+      "semantic_query": "dispute resolution binding arbitration mediation litigation process"
+    },
+    "remediation": "Define a step-by-step dispute escalation and arbitration mechanism.",
+    "recommendation": "Define a step-by-step dispute escalation and arbitration mechanism."
+  },
+  {
+    "rule_id": "RULE-007",
+    "name": "Party Identification",
+    "description": "Full legal names and addresses of all contracting parties.",
+    "category": "Parties & Execution",
+    "severity": "HIGH",
+    "enabled": true,
+    "requirement": "All legal contracting parties must be explicitly identified.",
+    "document_types": ["Contract", "NDA", "Employment Agreement", "Invoice", "Vendor Agreement"],
+    "required_for": ["Contract", "NDA", "Employment Agreement", "Invoice", "Vendor Agreement"],
+    "keywords": ["entered into by", "between", "parties", "hereinafter referred to", "by and between"],
+    "patterns": ["(?i)(entered\\s+into|made\\s+and\\s+entered)\\s+by\\s+and\\s+between", "(?i)between\\s+.*\\s+and\\s+.*"],
+    "evaluation": {
+      "type": "pattern",
+      "semantic_query": "agreement entered into by and between parties legal entities"
+    },
+    "remediation": "Include legal names, registered addresses, and corporate identifiers for all parties.",
+    "recommendation": "Include legal names, registered addresses, and corporate identifiers for all parties."
+  },
+  {
+    "rule_id": "RULE-008",
+    "name": "Effective Date Identification",
+    "description": "Explicit statement of the agreement's execution date.",
+    "category": "Parties & Execution",
+    "severity": "MEDIUM",
+    "enabled": true,
+    "requirement": "Agreement must state an explicit effective date or date of execution.",
+    "document_types": ["Contract", "NDA", "Employment Agreement", "Vendor Agreement"],
+    "required_for": ["Contract", "NDA", "Employment Agreement", "Vendor Agreement"],
+    "keywords": ["effective date", "dated as of", "execution date", "effective as of"],
+    "patterns": ["(?i)effective\\s+(date|as\\s+of)", "(?i)dated\\s+as\\s+of\\s+[A-Za-z0-9,\\s]+"],
+    "evaluation": {
+      "type": "pattern",
+      "semantic_query": "effective date dated as of execution date agreement start"
+    },
+    "remediation": "State the exact effective date on page 1 of the document.",
+    "recommendation": "State the exact effective date on page 1 of the document."
+  },
+  {
+    "rule_id": "RULE-009",
+    "name": "Confidential Information Definition",
+    "description": "Detailed definition of what constitutes confidential information.",
+    "category": "Confidentiality",
+    "severity": "MEDIUM",
+    "enabled": true,
+    "requirement": "Scope and exclusions of confidential information must be clearly defined.",
+    "document_types": ["NDA", "Contract"],
+    "required_for": ["NDA", "Contract"],
+    "keywords": ["confidential information shall mean", "includes technical", "trade secrets", "definition of confidential"],
+    "patterns": ["(?i)confidential\\s+information\\s+(shall|means|includes)"],
+    "evaluation": {
+      "type": "keyword",
+      "semantic_query": "confidential information scope definition includes technical financial trade secrets"
+    },
+    "remediation": "Provide an explicit list of covered technical, financial, and operational information types.",
+    "recommendation": "Provide an explicit list of covered technical, financial, and operational information types."
+  },
+  {
+    "rule_id": "RULE-010",
+    "name": "Data Retention Requirement",
+    "description": "Policy specifying retention periods for business records and logs.",
+    "category": "Data Governance",
+    "severity": "LOW",
+    "enabled": true,
+    "requirement": "Data retention schedules must define explicit maximum storage periods (e.g. max 10 years).",
+    "document_types": ["Company Policy", "Compliance Document"],
+    "required_for": ["Company Policy", "Compliance Document"],
+    "keywords": ["retention period", "retain records", "document retention", "archive", "retained for"],
+    "patterns": ["(?i)retain(ed)?\\s+for\\s+(\\d+)\\s+years?"],
+    "evaluation": {
+      "type": "threshold",
+      "metric": "max_retention_years",
+      "max_value": 10,
+      "semantic_query": "data retention period retain records storage schedule archive years"
+    },
+    "remediation": "Define data retention schedules according to regulatory guidelines.",
+    "recommendation": "Define data retention schedules according to regulatory guidelines."
+  }
+]
